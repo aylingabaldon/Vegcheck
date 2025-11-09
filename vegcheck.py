@@ -17,7 +17,11 @@ with tabs[0]:
   categoria = st.tabs(["Origen animal directo", "Colorantes o aditivos"])
 with categoria[0]:
   st.header("Origen animal directo")
-  Ingredientes = ["**Gelatina:** Proveniente principalmente de proteína animal como piel o huesos", "**Caseína:** Es la principal proteína de la leche"]
+  Ingredientes = ["**Gelatina:** Proveniente principalmente de proteína animal como piel o huesos.", "**Caseína:** Es la principal proteína de la leche.",
+                  "Caseínato: Es derivado de la caseína y por lo tanto de la leche, usado como espesante.", "Caseínato de sodio: Es una sal sódica que se obtiene de la leche al precipitar las proteínas y neutralizarlas con hidróxico de sodio. Usado como espesante, aglutinante o fuente de proteínas.",
+                 "Suero de leche: Es el líquido amarillento que queda después de que se coagula la leche. Usado principalmente en quesos y yogurt.", "Lactosa: Es el azúcar natural que se encuentra presente en la leche.", 
+                 "Miel: Sustancia natural proveniente y producida por las abejas.", "Propóleo: Es una sustancia resinosa que fabrican las abejas a partir de los árboles, usado como conservante en los alimentos.", 
+                 "Jalea real: Sustancia secretada por las abejas de color oscuro. Usado como complemento al aportar energía y nutrientes."]
   buscar = st.text_input("Busca el ingrediente ⌕")
   if buscar:
     resultado = [p for p in Ingredientes if buscar.lower() in p.lower()]
