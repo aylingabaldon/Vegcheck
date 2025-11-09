@@ -6,7 +6,7 @@ secondaryBackgroundColor="lavender"
 codeBackgroundColor="powderBlue"
 textColor="#00CC99"
 font="Cooper Black"
-[theme.sidebar]
+
 backgroundColor="ghostWhite"
 secondaryBackgroundColor="lavender"
 
