@@ -5,7 +5,7 @@ st.header("¿Eres vegano y batallas para encontrar alimentos 100% aptos para ti?
 st.write("Entonces esta app es ideal para ti, aquí encontrarás información importante que te ayudará a elegir los productos que cumplan con tu estilo de vida") 
 st.sidebar.write("Equipo: ")
 Nombres = ["Paola Conde", "Aylín Gabaldón", "José Luis Guevara", "Alan López", "Luis Yepiz"]
-for nombre in Nombres:
+for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("Materia: Programación")
 st.sidebar.write("Grupo: 3L")
