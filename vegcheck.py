@@ -17,7 +17,7 @@ with tabs[0]:
 with categoria[0]:
   st.header("Origen animal directo")
   Ingredientes = ["Gelatina: Proveniente principalmente de proteína animal como piel o huesos", "Caseína: Es la principal proteína de la leche"]
-for Ingredientes in Ingredientes:
-  st.write(f"➤ {Ingredientes}")
+  for Ingredientes in Ingredientes:
+    st.write(f"➤ {Ingredientes}")
                           
   
