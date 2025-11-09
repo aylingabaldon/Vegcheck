@@ -43,11 +43,11 @@ with categoria[0]:
 with categoria[1]:
   st.header("Colorantes o aditivos")
   Colorante = []
-  buscar = st.text_input("Busca el ingrediente ⌕")
+  busqueda = st.text_input("Busca el ingrediente ⌕")
   if buscar:
-    resultado = [p for p in Colorante if buscar.lower() in p.lower()]
-    if resultado:
+    resultados = [p for p in Colorante if buscar.lower() in p.lower()]
+    if resultados:
       st.write("Resultados: ")
-      for r in resultado:
+      for r in resultados:
         st.write(f"- {r}")
   
