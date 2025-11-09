@@ -13,6 +13,7 @@ tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes aptos ✅", "Ingredie
 
 with tabs[0]:
   st.header("Ingredientes no aptos ❌")
+  st.write("Aquí encontrarás una lista de ingredientes presentes en los productos que son de origen animal")
   categoria = st.tabs(["Origen animal directo", "Colorantes o aditivos"])
 with categoria[0]:
   st.header("Origen animal directo")
