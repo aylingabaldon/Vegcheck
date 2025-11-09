@@ -18,6 +18,15 @@ with tabs[0]:
 with categoria[0]:
   st.header("Origen animal directo")
   Ingredientes = ["**Gelatina:** Proveniente principalmente de proteína animal como piel o huesos", "**Caseína:** Es la principal proteína de la leche"]
+  buscar = st.text_input("Busca el ingrediente ⌕")
+  if buscar:
+    resultado = [p for p in Ingredientes if buscar.lower() in p.lower()]
+    if resultado:
+      st.write("Resultados: ")
+      for r in resultado:
+        st.write(f"- {r}")
+    else:
+      st.write("No se encontró el ingrediente")
   for Ingredientes in Ingredientes:
     st.write(f"➤ {Ingredientes}")
                           
