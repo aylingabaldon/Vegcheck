@@ -18,10 +18,14 @@ with tabs[0]:
 with categoria[0]:
   st.header("Origen animal directo")
   Ingredientes = ["**Gelatina:** Proveniente principalmente de proteína animal como piel o huesos.", "**Caseína:** Es la principal proteína de la leche.",
-                  "Caseínato: Es derivado de la caseína y por lo tanto de la leche, usado como espesante.", "Caseínato de sodio: Es una sal sódica que se obtiene de la leche al precipitar las proteínas y neutralizarlas con hidróxico de sodio. Usado como espesante, aglutinante o fuente de proteínas.",
-                 "Suero de leche: Es el líquido amarillento que queda después de que se coagula la leche. Usado principalmente en quesos y yogurt.", "Lactosa: Es el azúcar natural que se encuentra presente en la leche.", 
-                 "Miel: Sustancia natural proveniente y producida por las abejas.", "Propóleo: Es una sustancia resinosa que fabrican las abejas a partir de los árboles, usado como conservante en los alimentos.", 
-                 "Jalea real: Sustancia secretada por las abejas de color oscuro. Usado como complemento al aportar energía y nutrientes."]
+                  "**Caseínato:** Es derivado de la caseína y por lo tanto de la leche, usado como espesante.", "**Caseínato de sodio:** Es una sal sódica que se obtiene de la leche al precipitar las proteínas y neutralizarlas con hidróxico de sodio. Usado como espesante, aglutinante o fuente de proteínas.",
+                 "**Suero de leche:** Es el líquido amarillento que queda después de que se coagula la leche. Usado principalmente en quesos y yogurt.", "**Lactosa:** Es el azúcar natural que se encuentra presente en la leche.", 
+                 "**Miel:** Sustancia natural proveniente y producida por las abejas.", "**Propóleo:** Es una sustancia resinosa que fabrican las abejas a partir de los árboles, usado como conservante en los alimentos.", 
+                 "**Jalea real:** Sustancia secretada por las abejas de color oscuro. Usado como complemento al aportar energía y nutrientes.", "**Carmín:** Es un colorante rojo intenso extraído principalmente de la cochinilla", 
+                 "**Isinglass:** Es una gelatina traslúcida hecha con las colas de pescado secas. Utilizado para la clarificación de cervezas y vinos.", "**Albúmina de huevo:** Es las proteína principal de la clara de huevo, utilizada como espumante o estabilizador.",
+                 "**Albumen:** Es otro nombre con el cual se nombra a la clara del huevo.", "**Lactoalbúmina:** Es una proteína del suero de la leche. Utilizada en fórmulas infantiles para imitar la leche materna o en suplementos.", 
+                 "**Shellac o E904:** Es un barniz de origen natural producido por el insecto de la laca. Utilizado para otorgar un glaseado, recubrimiento o brillo en los alimentos.", 
+                 "**Cera de abejas o E901:** Sustancia natural producida por las abejas para construir sus colmenas, se utilizan como agente de recubrimiento en algunos alimentos."]
   buscar = st.text_input("Busca el ingrediente ⌕")
   if buscar:
     resultado = [p for p in Ingredientes if buscar.lower() in p.lower()]
