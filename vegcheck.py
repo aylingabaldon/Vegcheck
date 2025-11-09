@@ -27,6 +27,7 @@ with categoria[0]:
         st.write(f"- {r}")
     else:
       st.write("No se encontró el ingrediente")
+  st.subheader("Lista completa de los ingredientes 📝")
   for Ingredientes in Ingredientes:
     st.write(f"➤ {Ingredientes}")
                           
