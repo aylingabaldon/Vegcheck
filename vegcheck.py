@@ -6,4 +6,3 @@ st.sidebar.write("Equipo: [Paola Conde, Aylín Gabaldón,José Luis Guevara, Ala
 st.sidebar.write("Materia: Programación")
 st.sidebar.write("Grupo: 3L")
 tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes aptos ✅", "Ingredientes a revisar 🔎", "Productos 100% veganos Ⓥ", "Recetas veganas 🍽️"])
-
