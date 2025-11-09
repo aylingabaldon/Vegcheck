@@ -13,7 +13,7 @@ tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Pro
 
 with tabs[0]:
   st.header("Ingredientes no aptos ❌")
-  st.write("Aquí encontrarás una lista de ingredientes presentes en los productos que son de origen animal")
+  st.write("Aquí encontrarás una lista de ingredientes presentes en los productos que son directamente de origen animal")
 
   Ingredientes = ["**Animales:** Vaca, cerdo, pescado, mariscos, cordero, caballo, pollo, gallina, cabra, conejo, pavo, pato, borrego, aves, insectos, entre otros.", "**Gelatina o E441:** Proveniente principalmente de proteína animal como piel o huesos.", "**Caseína:** Es la principal proteína de la leche.",
                   "**Caseínato:** Es derivado de la caseína y por lo tanto de la leche, usado como espesante.", "**Caseínato de sodio:** Es una sal sódica que se obtiene de la leche al precipitar las proteínas y neutralizarlas con hidróxico de sodio. Usado como espesante, aglutinante o fuente de proteínas.",
@@ -39,3 +39,6 @@ with tabs[0]:
   for Ingredientes in Ingredientes:
     st.write(f"➤ {Ingredientes}")
 
+with tabs[1]:
+   st.header("Ingredientes a revisar 🔎")
+  st.write("En esta sección encontrarás ingredientes que pueden ocasionar confusión entre si son ")
