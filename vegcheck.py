@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("VegCheck 🌱💚")
-st.header("¿Eres vegano y batallas para encontrar alimentos 100% aptos para ti?")
+st.header("¿Eres vegano y batallas para encontrar productos 100% aptos para ti?")
 st.write("Entonces esta app es ideal para ti, aquí encontrarás información importante que te ayudará a elegir los productos que cumplan con tu estilo de vida") 
 st.sidebar.write("**Equipo:** ")
 Nombres = ["Paola Conde", "Aylín Gabaldón", "José Luis Guevara", "Alan López", "Luis Yepiz"]
@@ -9,7 +9,7 @@ for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
-tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes aptos ✅", "Ingredientes a revisar 🔎", "Productos 100% veganos Ⓥ", "Recetas veganas 🍽️"])
+tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅Ⓥ", "Recetas veganas 🍽️"])
 
 with tabs[0]:
   st.header("Ingredientes no aptos ❌")
@@ -40,5 +40,14 @@ with categoria[0]:
   st.subheader("Lista completa de los ingredientes 📝")
   for Ingredientes in Ingredientes:
     st.write(f"➤ {Ingredientes}")
-                          
+with categoria[1]:
+  st.header("Colorantes o aditivos")
+  Colorante = []
+  buscar = st.text_input("Busca el ingrediente ⌕")
+  if buscar:
+    resultado = [p for p in Colorante if buscar.lower() in p.lower()]
+    if resultado:
+      st.write("Resultados: ")
+      for r in resultado:
+        st.write(f"- {r}")
   
