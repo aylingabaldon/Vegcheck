@@ -1,8 +1,18 @@
 import streamlit as st
 
+[theme]
+base="light"
 backgroundColor="#D4E5F4"
+secondaryBackgroundColor="lavender"
+codeBackgroundColor="powderBlue"
 textColor="#00CC99"
 font="Cooper Black"
+[theme.sidebar]
+backgroundColor="ghostWhite"
+secondaryBackgroundColor="lavender"
+
+
+
 
 st.title("VegCheck 🌱💚")
 st.header("¿Eres vegano y batallas para encontrar alimentos 100% aptos para ti?")
