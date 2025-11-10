@@ -103,10 +103,10 @@ with tabs[2]:
   st.write("**Helado vegano:** hecho con base de leche vegetal y sin derivados animales.")
 
   # Chocolate negro
-  st.image("https://images.immediate.co.uk/production/volatile/sites/30/2021/08/Dark-chocolate-2f1cc4a.jpg?quality=90&resize=556,505", caption="Chocolate negro – Lindt 70% / Hu Chocolate / Alter Eco")
+  st.image("https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00003746601763L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF", caption="Chocolate negro – Lindt 70% / Hu Chocolate / Alter Eco")
   st.write("**Chocolate negro (≥70% cacao):** siempre que no contenga leche ni miel.")
 
-  # Pastas y panes
+  # Pastas y panes 
   st.image("https://static01.nyt.com/images/2020/02/26/dining/as-pasta3/merlin_169213001_3d093afc-2234-4ce9-bd3d-0b7c1d95f0df-superJumbo.jpg", caption="Pastas y panes sin huevo ni leche – Barilla / Rustichella / Pan artesanal vegano")
   st.write("**Pastas y panes sin huevo ni leche:** revisando etiquetas, son opciones aptas.")
 
