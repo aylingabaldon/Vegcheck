@@ -117,9 +117,9 @@ with tabs[2]:
   # Suplementos veganos
   st.image("https://m.media-amazon.com/images/I/71Q-0sa8IML._AC_UF1000,1000_QL80_.jpg", caption="Suplementos veganos – Vega / Orgain / MyProtein Vegan")
   st.write("**Suplementos veganos:** proteínas de chícharo, arroz o soya, sin gelatina ni miel.")
-
+ 
   # Cosméticos veganos
-  st.image("https://vegnews.com/media/W1siZiIsIjI0Njc5L1ZlZ05ld3MtVmVnYW4tQ29zbWV0aWNzLmpwZyJdLFsicCIsInRodW1iIiwiMTIwMHg3MTRcdTAwM2UiXV0/VegNews-Vegan-Cosmetics.jpg?sha=71a8a19dd2e70d53", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
+  st.image("https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/1351/5c79/3361/d60c/9c91/b9c3/75a7/02aa/15f4/c7bc/c7bc.jpg", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
   st.write("**Cosméticos cruelty-free:** no probados en animales y sin ingredientes derivados.")
   st.subheader("Lista completa de productos 🛒")
   for p in productos:
