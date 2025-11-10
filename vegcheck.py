@@ -41,6 +41,6 @@ with tabs[0]:
 
 with tabs[1]:
    st.header("Ingredientes a revisar 🔎")
-   st.write("En esta sección encontrarás ingredientes que pueden ocasionar confusión entre si son de origen vegetal o de origen animal, con los cuáles se tendrá que investigar un poco más a fondo de que oigen tienen antes de clasificar el producto como apto o no.")
+   st.write("En esta sección encontrarás ingredientes que pueden ocasionar confusión entre si son de origen vegetal o de origen animal, con los cuáles se tendrá que investigar un poco más a fondo de que origen tienen antes de clasificar el producto como apto o no.")
 
    
