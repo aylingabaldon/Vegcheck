@@ -45,16 +45,16 @@ with tabs[1]:
    ingredientes =  ["**Glicerina o E422:** Puede ser vegetal o animal","**Glicerol o E422:** puede ser vegetal o animal", "**mono y digliceridos o E471:** de origen mixto", "**estereato de magnesio o E572:** puede ser vegetal o animal", "**Lecitina o E5322:** se obtiene de la soya/girasol o del huevo", 
                     "**Acido estearico:** puede provenir de grasa animal o vegetal", "**L cisteina o E910-E913:** Frecuentemente animal pero existe sintetica(vegana)", "**Saborizante natural:** Puede contener compuestos de origen animal. consultar con el fabricante", "**Vitamina d:** D3 puede derivar de lanolina o ser vegana(liquen); D2 es vegana", "**Carbon activado:** En algunos procesos(azùcar) puede usarse hueso; confirmar con el provedor", 
                    "**inosinato disodico o E631:** Puede ser de carne/pescado o fermentacion"]
-   buscar = st.text_input("Busca el ingrediente ⌕")
-   if buscar:
-     resultado = [p for p in ingredientes if buscar.lower() in p.lower()]
+   busqueda = st.text_input("Busca el ingrediente ⌕")
+   if busqueda:
+     resultado = [p for p in ingredientes if busqueda.lower() in p.lower()]
      if resultado:
        st.write("Resultados: ")
        for r in resultados:
          st.write(f"- {r}")
      else: 
        st.write("No se encontro el ingrediente")
-   st.subheader("lista completa de los ingredientes 📝")
+   st.subheader("Lista completa de los ingredientes 📝")
    for ingredientes in ingredientes:
      st.write(f"➤ {ingredientes}")
    
