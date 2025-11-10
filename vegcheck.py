@@ -107,7 +107,7 @@ with tabs[2]:
   st.write("**Chocolate negro (≥70% cacao):** siempre que no contenga leche ni miel.")
 
   # Pastas y panes 
-  st.image("https://static01.nyt.com/images/2020/02/26/dining/as-pasta3/merlin_169213001_3d093afc-2234-4ce9-bd3d-0b7c1d95f0df-superJumbo.jpg", caption="Pastas y panes sin huevo ni leche – Barilla / Rustichella / Pan artesanal vegano")
+  st.image("https://2fa9243327.clvaw-cdnwnd.com/5cae5153195db7e844209308a86bfd40/200002966-a9601a9603/Barilla.jpg?ph=2fa9243327", caption="Pastas y panes sin huevo ni leche – Barilla / Rustichella / Pan artesanal vegano")
   st.write("**Pastas y panes sin huevo ni leche:** revisando etiquetas, son opciones aptas.")
 
   # Snacks veganos
