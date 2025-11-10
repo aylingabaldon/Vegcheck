@@ -111,7 +111,7 @@ with tabs[2]:
   st.write("**Pastas y panes sin huevo ni leche:** revisando etiquetas, son opciones aptas.")
 
   # Snacks veganos
-  st.image("https://www.tasteofhome.com/wp-content/uploads/2023/03/TOH-Vegan-Snacks-List-Final-TOHcom23-e1692716214927.jpg?fit=700,700", caption="Snacks veganos – Lays Original / Oreos / PopCorners")
+  st.image("https://www.costco.com.mx/medias/sys_master/products/hff/hc8/362138339442718.jpg", caption="Snacks veganos – Lays Original / Oreos / PopCorners")
   st.write("**Snacks veganos:** papas, palomitas, galletas y barras sin ingredientes animales.")
 
   # Suplementos veganos
