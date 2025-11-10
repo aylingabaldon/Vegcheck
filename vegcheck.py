@@ -58,6 +58,73 @@ with tabs[1]:
    for ingredientes in ingredientes:
      st.write(f"➤ {ingredientes}")
 
+with tabs[2]:
+  st.header("Productos 100% veganos ✅Ⓥ")
+  st.write("Aquí encontrarás una lista de productos que son completamente veganos, sin ingredientes de origen animal ni derivados. Estos productos son seguros para un estilo de vida 100% vegetal 🌿.")
+
+  # Leche vegetal
+  st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal – Silk / Alpro / Califia Farms")
+  st.write("**Leches vegetales:** bebidas de soya, almendra, avena, arroz, coco o nuez.")
+
+  # Yogur vegetal
+  st.image("https://makeitdairyfree.com/wp-content/uploads/2020/01/Vegan-Yogurt-Review-Dairy-free-yogurts-2-2.jpg", caption="Yogur vegetal – Silk / So Delicious / Alpro")
+  st.write("**Yogur vegetal:** hecho a base de soya, coco, avena o almendra.")
+
+  # Queso vegano
+  st.image("https://www.tastingtable.com/img/gallery/14-best-vegan-cheese-brands-ranked-worst-to-best/intro-1670870549.jpg", caption="Queso vegano – Violife / Daiya / Follow Your Heart")
+  st.write("**Queso vegano:** elaborado con frutos secos, tofu o aceites vegetales.")
+
+  # Tofu
+  st.image("https://bigmountainfoods.com/cdn/shop/files/smoked-tofu-mock-front-9.png?v=1754505176", caption="Tofu – Big Mountain / Mori-Nu / House Foods")
+  st.write("**Tofu:** fuente vegetal de proteína hecha a base de soya coagulada.")
+
+  # Tempeh
+  st.image("https://itznot.com/cdn/shop/files/MultiPacks1_1_4a75599c-ca9a-4f01-8fff-92814b702d8a.webp?v=1749623762", caption="Tempeh – ItzNot / Lightlife / Tofurky")
+  st.write("**Tempeh:** alimento fermentado a base de soya con alto contenido proteico.")
+
+  # Seitán
+  st.image("https://www.thefullhelping.com/wp-content/uploads/2021/01/How-to-Make-Seitan-5.jpg", caption="Seitán – Upton’s Naturals / The Plant-Based Butchers")
+  st.write("**Seitán:** también llamado carne vegetal, hecho de gluten de trigo.")
+
+  # Hamburguesas vegetales
+  st.image("https://beyond-meat-cms-production.s3.us-west-2.amazonaws.com/42e87ac4-e865-40d8-bce9-a3870489460e.png", caption="Hamburguesa vegetal – Beyond Meat / Impossible / Gardein")
+  st.write("**Hamburguesas vegetales:** elaboradas con legumbres, granos y vegetales.")
+
+  # Mayonesa vegana
+  st.image("https://cdn.shopify.com/s/files/1/0322/3554/2434/products/Just_Mayo_3_1200x1200.jpg?v=1606335821", caption="Mayonesa vegana – Just Mayo / Hellmann’s Vegan")
+  st.write("**Mayonesa vegana:** hecha sin huevo, con aceite vegetal y leche de soya o aquafaba.")
+
+  # Mantequilla vegana
+  st.image("https://target.scene7.com/is/image/Target/GUEST_c26f35f8-48a7-426d-80f3-780b6a2423cf?wid=488&hei=488&fmt=pjpeg", caption="Mantequilla vegana – Country Crock Plant / Earth Balance")
+  st.write("**Mantequilla vegana:** elaborada con aceites vegetales o aguacate.")
+
+  # Helado vegano
+  st.image("https://vegnews.com/media/W1siZiIsIjI0NDQ0L1ZlZ05ld3MtSWNlLUNyZWFtLmpwZyJdLFsicCIsInRodW1iIiwiMTIwMHg2NzVcdTAwM2UiXV0/VegNews-Ice-Cream.jpg?sha=ccdb43b0b7b77cfb", caption="Helado vegano – Ben & Jerry’s Non-Dairy / Halo Top Vegan / Oatly")
+  st.write("**Helado vegano:** hecho con base de leche vegetal y sin derivados animales.")
+
+  # Chocolate negro
+  st.image("https://images.immediate.co.uk/production/volatile/sites/30/2021/08/Dark-chocolate-2f1cc4a.jpg?quality=90&resize=556,505", caption="Chocolate negro – Lindt 70% / Hu Chocolate / Alter Eco")
+  st.write("**Chocolate negro (≥70% cacao):** siempre que no contenga leche ni miel.")
+
+  # Pastas y panes
+  st.image("https://static01.nyt.com/images/2020/02/26/dining/as-pasta3/merlin_169213001_3d093afc-2234-4ce9-bd3d-0b7c1d95f0df-superJumbo.jpg", caption="Pastas y panes sin huevo ni leche – Barilla / Rustichella / Pan artesanal vegano")
+  st.write("**Pastas y panes sin huevo ni leche:** revisando etiquetas, son opciones aptas.")
+
+  # Snacks veganos
+  st.image("https://www.tasteofhome.com/wp-content/uploads/2023/03/TOH-Vegan-Snacks-List-Final-TOHcom23-e1692716214927.jpg?fit=700,700", caption="Snacks veganos – Lays Original / Oreos / PopCorners")
+  st.write("**Snacks veganos:** papas, palomitas, galletas y barras sin ingredientes animales.")
+
+  # Suplementos veganos
+  st.image("https://cdn.shopify.com/s/files/1/0580/5462/2782/files/vegan-protein-powder-header_1024x1024.jpg?v=1660000320", caption="Suplementos veganos – Vega / Orgain / MyProtein Vegan")
+  st.write("**Suplementos veganos:** proteínas de chícharo, arroz o soya, sin gelatina ni miel.")
+
+  # Cosméticos veganos
+  st.image("https://vegnews.com/media/W1siZiIsIjI0Njc5L1ZlZ05ld3MtVmVnYW4tQ29zbWV0aWNzLmpwZyJdLFsicCIsInRodW1iIiwiMTIwMHg3MTRcdTAwM2UiXV0/VegNews-Vegan-Cosmetics.jpg?sha=71a8a19dd2e70d53", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
+  st.write("**Cosméticos cruelty-free:** no probados en animales y sin ingredientes derivados.")
+  st.subheader("Lista completa de productos 🛒")
+  for p in productos:
+      st.write(f"➤ {p}")
+
 with tabs[3]:
   st. header("Recetas veganas 🍽️")
   st.subheader("Link utiles")
