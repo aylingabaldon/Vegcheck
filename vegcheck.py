@@ -47,7 +47,7 @@ with tabs[1]:
                    "**inosinato disodico o E631:** Puede ser de carne/pescado o fermentacion"]
    busqueda = st.text_input("Buscar el ingrediente ⌕")
    if busqueda:
-     resultado = [p for p in ingredientes if busqueda.lower() in p.lower()]
+     resultados = [p for p in ingredientes if busqueda.lower() in p.lower()]
      if resultado:
        st.write("Resultados: ")
        for r in resultados:
