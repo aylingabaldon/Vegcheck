@@ -83,7 +83,7 @@ with tabs[2]:
   st.write("**Tempeh:** alimento fermentado a base de soya con alto contenido proteico.")
 
   # Seitán
-  st.image("https://www.thefullhelping.com/wp-content/uploads/2021/01/How-to-Make-Seitan-5.jpg", caption="Seitán – Upton’s Naturals / The Plant-Based Butchers")
+  st.image("https://uptonsnaturals.com/wp-content/uploads/2024/02/TraditionalSeitanCanada.png", caption="Seitán – Upton’s Naturals / The Plant-Based Butchers")
   st.write("**Seitán:** también llamado carne vegetal, hecho de gluten de trigo.")
 
   # Hamburguesas vegetales
