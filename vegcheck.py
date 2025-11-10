@@ -99,7 +99,7 @@ with tabs[2]:
   st.write("**Mantequilla vegana:** elaborada con aceites vegetales o aguacate.")
 
   # Helado vegano
-  st.image("https://vegnews.com/media/W1siZiIsIjI0NDQ0L1ZlZ05ld3MtSWNlLUNyZWFtLmpwZyJdLFsicCIsInRodW1iIiwiMTIwMHg2NzVcdTAwM2UiXV0/VegNews-Ice-Cream.jpg?sha=ccdb43b0b7b77cfb", caption="Helado vegano – Ben & Jerry’s Non-Dairy / Halo Top Vegan / Oatly")
+  st.image("https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202304/26/00118952006924____7__600x600.jpg", caption="Helado vegano – Ben & Jerry’s Non-Dairy / Halo Top Vegan / Oatly")
   st.write("**Helado vegano:** hecho con base de leche vegetal y sin derivados animales.")
 
   # Chocolate negro
