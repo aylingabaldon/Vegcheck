@@ -9,7 +9,7 @@ for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
-tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅Ⓥ", "Recetas veganas 🍽️"])
+tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅Ⓥ", "Recetas Veganas 🍽️"])
 
 with tabs[0]:
   st.header("Ingredientes no aptos ❌")
@@ -122,17 +122,17 @@ with tabs[2]:
   st.image("https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/1351/5c79/3361/d60c/9c91/b9c3/75a7/02aa/15f4/c7bc/c7bc.jpg", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
   st.write("**Cosméticos cruelty-free:** no probados en animales y sin ingredientes derivados.")
   st.subheader("Lista completa de productos 🛒")
-  for p in productos:
-      st.write(f"➤ {p}")
+ # for p in productos:
+    #  st.write(f"➤ {p}") #Falta agregar la lista
 
 with tabs[3]:
-  st. header("Recetas veganas 🍽️")
-  st.subheader("Link utiles")
-  st.write("Haz clic en los siguientes enlaces para visitar paginas de recetas")
+  st. header("Recetas Veganas 🍽️")
+  st.subheader("Link útiles")
+  st.write("Haz clic en los siguientes enlaces para visitar páginas de recetas")
   st.markdown("[LoveVeg](https://loveveg.mx/recetas/)")
   st.markdown("[Nutritionfacts](https://nutritionfacts.org/es/recipes/)")
   st.markdown("[Veganoutreach](https://veganoutreach.org/recetas/)")
   st.markdown("[Veganuary](https://veganoutreach.org/recetas/)")
   st.markdown("[PCRM](https://www.pcrm.org/good-nutrition/plant-based-diets/recipes)")
-  st.info("Los enlaces se abriran en una nueva pestaña del navegador.")
+  st.info("Los enlaces se abrirán en una nueva pestaña del navegador.")
 
