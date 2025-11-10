@@ -91,7 +91,7 @@ with tabs[2]:
   st.write("**Hamburguesas vegetales:** elaboradas con legumbres, granos y vegetales.")
 
   # Mayonesa vegana
-  st.image("https://cdn.shopify.com/s/files/1/0322/3554/2434/products/Just_Mayo_3_1200x1200.jpg?v=1606335821", caption="Mayonesa vegana – Just Mayo / Hellmann’s Vegan")
+  st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Mayonesa vegana – Just Mayo / Hellmann’s Vegan")
   st.write("**Mayonesa vegana:** hecha sin huevo, con aceite vegetal y leche de soya o aquafaba.")
 
   # Mantequilla vegana
