@@ -115,7 +115,7 @@ with tabs[2]:
   st.write("**Snacks veganos:** papas, palomitas, galletas y barras sin ingredientes animales.")
 
   # Suplementos veganos
-  st.image("https://cdn.shopify.com/s/files/1/0580/5462/2782/files/vegan-protein-powder-header_1024x1024.jpg?v=1660000320", caption="Suplementos veganos – Vega / Orgain / MyProtein Vegan")
+  st.image("https://m.media-amazon.com/images/I/71Q-0sa8IML._AC_UF1000,1000_QL80_.jpg", caption="Suplementos veganos – Vega / Orgain / MyProtein Vegan")
   st.write("**Suplementos veganos:** proteínas de chícharo, arroz o soya, sin gelatina ni miel.")
 
   # Cosméticos veganos
