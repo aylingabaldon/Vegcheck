@@ -48,7 +48,7 @@ with tabs[1]:
    busqueda = st.text_input("Buscar el ingrediente ⌕")
    if busqueda:
      resultados = [p for p in ingredientes if busqueda.lower() in p.lower()]
-     if resultado:
+     if resultados:
        st.write("Resultados: ")
        for r in resultados:
          st.write(f"- {r}")
