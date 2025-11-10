@@ -79,7 +79,7 @@ with tabs[2]:
   st.write("**Tofu:** fuente vegetal de proteína hecha a base de soya coagulada.")
 
   # Tempeh
-  st.image("itznot.com/cdn/shop/files/MultiPacks1_1_4a75599c-ca9a-4f01-8fff-92814b702d8a.webp?v=1749623762", caption="Tempeh – ItzNot / Lightlife / Tofurky")
+  st.image("https://itznot.com/cdn/shop/files/Tofu_combo.png?v=1749569629", caption="Tempeh – ItzNot / Lightlife / Tofurky")
   st.write("**Tempeh:** alimento fermentado a base de soya con alto contenido proteico.")
 
   # Seitán
