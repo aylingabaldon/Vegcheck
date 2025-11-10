@@ -95,7 +95,7 @@ with tabs[2]:
   st.write("**Mayonesa vegana:** hecha sin huevo, con aceite vegetal y leche de soya o aquafaba.")
 
   # Mantequilla vegana
-  st.image("https://target.scene7.com/is/image/Target/GUEST_c26f35f8-48a7-426d-80f3-780b6a2423cf?wid=488&hei=488&fmt=pjpeg", caption="Mantequilla vegana – Country Crock Plant / Earth Balance")
+  st.image("https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00002740000024L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF&format=avif", caption="Mantequilla vegana – Country Crock Plant / Earth Balance")
   st.write("**Mantequilla vegana:** elaborada con aceites vegetales o aguacate.")
 
   # Helado vegano
