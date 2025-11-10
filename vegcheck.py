@@ -54,7 +54,7 @@ with tabs[1]:
          st.write(f"- {r}")
      else: 
        st.write("No se encontro el ingrediente")
-  st.subheader("lista completa de los ingredientes 📝")
-  for ingredientes in ingredientes:
-    st.write(f"➤ {ingredientes}")
+   st.subheader("lista completa de los ingredientes 📝")
+   for ingredientes in ingredientes:
+     st.write(f"➤ {ingredientes}")
    
