@@ -21,11 +21,18 @@ with tabs[0]:
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
   st.subheader("Beneficios del veganismo")
-# st.write(f"ESCRIBIR LAS PRINCIPALES VENTAJAS Y BENEFICIOS DEL VEGANISMO)
+# "ESCRIBIR LAS PRINCIPALES VENTAJAS Y BENEFICIOS DEL VEGANISMO)
 # beneficios = []
 # for beneficios in beneficios:
 # st.write(f"•{beneficios}")
-  
+  st.subheader("Mitos del veganismo")
+# AQUÍ ESCRIBIR ALGUNOS DE LOS MITOS MÁS SONADOS Y LA RAZON POR LA QUE NO ES VERDAD)
+#  mitos = []
+#  for mitos in mitos:
+#    st.write(f"•{mitos}") 
+    
+  st.subheader("Guías para iniciar en el veganismo")
+
 
 with tabs[1]:
   st.header("Ingredientes no aptos ❌")
