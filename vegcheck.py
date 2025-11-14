@@ -32,45 +32,45 @@ with tabs[0]:
 #    st.write(f"•{mitos}") 
     
   st.subheader("Guías para iniciar en el veganismo")
-PDF_FILE_PATH = r"PETAspanishVSK.pdf"
-with open(PDF_FILE_PATH, "rb") as pdf_file:
-  PDF_bytes = pdf_file.read()
-  st.write("Kit vegano para principiantes")
-  st.download_button(
-    label="Descargar PDF",
-    data=PDF_bytes,
-    file_name="Kit_Vegano_Para_Principiantes.pdf",
-    mime="application/pdf")
+  PDF_FILE_PATH = r"PETAspanishVSK.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("Kit vegano para principiantes")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Kit_Vegano_Para_Principiantes.pdf",
+      mime="application/pdf")
 
-PDF_FILE_PATH = r"GuíaDeIniciaciónAlVeganismo-Español-2.1.pdf"
-with open(PDF_FILE_PATH, "rb") as pdf_file:
-  PDF_bytes = pdf_file.read()
-  st.write("Guía de iniciación al veganismo")
-  st.download_button(
-    label="Descargar PDF",
-    data=PDF_bytes,
-    file_name="Guía_de_iniciación_al_veganismo.pdf",
-    mime="application/pdf")
+  PDF_FILE_PATH = r"GuíaDeIniciaciónAlVeganismo-Español-2.1.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("Guía de iniciación al veganismo")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Guía_de_iniciación_al_veganismo.pdf",
+      mime="application/pdf")
 
-PDF_FILE_PATH = r"Guia Vegetariana Para Principiantes_LA [EligeVeg].pdf"
-with open(PDF_FILE_PATH, "rb") as pdf_file:
-  PDF_bytes = pdf_file.read()
-  st.write("Guía vegetariana para principiantes")
-  st.download_button(
-    label="Descargar PDF",
-    data=PDF_bytes,
-    file_name="Guía_vegetariana_para_principiantes.pdf",
-    mime="application/pdf")
+  PDF_FILE_PATH = r"Guia Vegetariana Para Principiantes_LA [EligeVeg].pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("Guía vegetariana para principiantes")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Guía_vegetariana_para_principiantes.pdf",
+      mime="application/pdf")
 
-PDF_FILE_PATH = r"Good Nutrition - Vegan Starter Kit.pdf"
-with open(PDF_FILE_PATH, "rb") as pdf_file:
-  PDF_bytes = pdf_file.read()
-  st.write("Vegan Starter (Inglés)")
-  st.download_button(
-    label="Descargar PDF",
-    data=PDF_bytes,
-    file_name="Vegan_Starter.pdf",
-    mime="application/pdf")
+  PDF_FILE_PATH = r"Good Nutrition - Vegan Starter Kit.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("Vegan Starter (Inglés)")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Vegan_Starter.pdf",
+      mime="application/pdf")
 
 with tabs[1]:
   st.header("Ingredientes no aptos ❌")
