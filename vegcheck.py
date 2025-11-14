@@ -131,66 +131,67 @@ with tabs[3]:
   st.write("Aquí encontrarás una lista de productos que son completamente veganos, sin ingredientes de origen animal ni derivados. Estos productos son seguros para un estilo de vida 100% vegetal 🌿.")
 
   # Leche vegetal
-  st.write("**Leches vegetales:** bebidas de soya, almendra, avena, arroz, coco o nuez.")
+  st.write("**Leches vegetales:** Bebidas de soya, almendra, avena, arroz, coco o nuez.")
   st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal – Silk / Alpro / Califia Farms")
   
   # Yogur vegetal
-  st.write("**Yogur vegetal:** hecho a base de soya, coco, avena o almendra.")
+  st.write("**Yogur vegetal:** Hecho a base de soya, coco, avena o almendra.")
   st.image("https://makeitdairyfree.com/wp-content/uploads/2020/01/Vegan-Yogurt-Review-Dairy-free-yogurts-2-2.jpg", caption="Yogur vegetal – Silk / So Delicious / Alpro")
   
   # Queso vegano
-  st.write("**Queso vegano:** elaborado con frutos secos, tofu o aceites vegetales.")
+  st.write("**Queso vegano:** Elaborado con frutos secos, tofu o aceites vegetales.")
   st.image("https://www.tastingtable.com/img/gallery/14-best-vegan-cheese-brands-ranked-worst-to-best/intro-1670870549.jpg", caption="Queso vegano – Violife / Daiya / Follow Your Heart")
  
   # Tofu
-  st.write("**Tofu:** fuente vegetal de proteína hecha a base de soya coagulada.")  
+  st.write("**Tofu:** Fuente vegetal de proteína hecha a base de soya coagulada.")  
   st.image("https://bigmountainfoods.com/cdn/shop/files/smoked-tofu-mock-front-9.png?v=1754505176", caption="Tofu – Big Mountain / Mori-Nu / House Foods")
     
   # Tempeh
-  st.write("**Tempeh:** alimento fermentado a base de soya con alto contenido proteico.")
+  st.write("**Tempeh:** Alimento fermentado a base de soya con alto contenido proteico.")
   st.image("https://itznot.com/cdn/shop/files/Tofu_combo.png?v=1749569629", caption="Tempeh – ItzNot / Lightlife / Tofurky")
   
   # Seitán
-  st.write("**Seitán:** también llamado carne vegetal, hecho de gluten de trigo.")
+  st.write("**Seitán:** También llamado carne vegetal, está hecho de gluten de trigo.")
   st.image("https://uptonsnaturals.com/wp-content/uploads/2024/02/TraditionalSeitanCanada.png", caption="Seitán – Upton’s Naturals / The Plant-Based Butchers")
 
   # Hamburguesas vegetales
-  st.write("**Hamburguesas vegetales:** elaboradas con legumbres, granos y vegetales.")
+  st.write("**Hamburguesas vegetales:** Elaboradas con legumbres, granos y vegetales.")
   st.image("https://beyond-meat-cms-production.s3.us-west-2.amazonaws.com/42e87ac4-e865-40d8-bce9-a3870489460e.png", caption="Hamburguesa vegetal – Beyond Meat / Impossible / Gardein")
   
   # Mayonesa vegana
-  st.write("**Mayonesa vegana:** hecha sin huevo, con aceite vegetal y leche de soya o aquafaba.")
+  st.write("**Mayonesa vegana:** Hecha sin huevo, con aceite vegetal y leche de soya o aquafaba.")
   st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Mayonesa vegana – Just Mayo / Hellmann’s Vegan")
   
   # Mantequilla vegana
-  st.write("**Mantequilla vegana:** elaborada con aceites vegetales o aguacate.")
+  st.write("**Mantequilla vegana:** Elaborada con aceites vegetales o aguacate.")
   st.image("https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00002740000024L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF&format=avif", caption="Mantequilla vegana – Country Crock Plant / Earth Balance")
   
   # Helado vegano
-  st.write("**Helado vegano:** hecho con base de leche vegetal y sin derivados animales.")
+  st.write("**Helado vegano:** Hecho con base de leche vegetal y sin derivados animales.")
   st.image("https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202304/26/00118952006924____7__600x600.jpg", caption="Helado vegano – Ben & Jerry’s Non-Dairy / Halo Top Vegan / Oatly")
   
   # Chocolate negro
-  st.write("**Chocolate negro (≥70% cacao):** siempre que no contenga leche ni miel.")
+  st.write("**Chocolate negro (≥70% cacao):** Siempre que no contenga leche ni miel.")
   st.image("https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00003746601763L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF", caption="Chocolate negro – Lindt 70% / Hu Chocolate / Alter Eco")
   
   # Pastas y panes 
-  st.write("**Pastas y panes sin huevo ni leche:** revisando etiquetas, son opciones aptas.")
+  st.write("**Pastas y panes sin huevo ni leche:** Revisando las etiquetas, son opciones aptas.")
   st.image("https://2fa9243327.clvaw-cdnwnd.com/5cae5153195db7e844209308a86bfd40/200002966-a9601a9603/Barilla.jpg?ph=2fa9243327", caption="Pastas y panes sin huevo ni leche – Barilla / Rustichella / Pan artesanal vegano")
   
   # Snacks veganos
-  st.write("**Snacks veganos:** papas, palomitas, galletas y barras sin ingredientes animales.")
+  st.write("**Snacks veganos:** Papas, palomitas, galletas y barras sin ingredientes animales.")
   st.image("https://www.costco.com.mx/medias/sys_master/products/hff/hc8/362138339442718.jpg", caption="Snacks veganos – Lays Original / Oreos / PopCorners")
   
   # Suplementos veganos
-  st.write("**Suplementos veganos:** proteínas de chícharo, arroz o soya, sin gelatina ni miel.")
+  st.write("**Suplementos veganos:** Proteínas de chícharo, arroz o soya, sin gelatina ni miel.")
   st.image("https://m.media-amazon.com/images/I/71Q-0sa8IML._AC_UF1000,1000_QL80_.jpg", caption="Suplementos veganos – Vega / Orgain / MyProtein Vegan")
   
   # Cosméticos veganos
-  st.write("**Cosméticos cruelty-free:** no probados en animales y sin ingredientes derivados.")
+  st.write("**Cosméticos cruelty-free:** Estos no fueron probados en animales y o contienen ingredientes derivados.")
   st.image("https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/1351/5c79/3361/d60c/9c91/b9c3/75a7/02aa/15f4/c7bc/c7bc.jpg", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
   st.subheader("Lista completa de productos 🛒")
- # for p in productos:
+ # AGREGAR UNA LISTA DE PRODUCTOS JUNTO CON EL TIPO, MARCAS, SUPERMERCADOS Y LINKS
+# for p in productos:
     #  st.write(f"➤ {p}") #Falta agregar la lista
 
 with tabs[4]:
@@ -203,4 +204,4 @@ with tabs[4]:
   st.markdown("[Veganuary](https://veganoutreach.org/recetas/)")
   st.markdown("[PCRM](https://www.pcrm.org/good-nutrition/plant-based-diets/recipes)")
   st.info("Los enlaces se abrirán en una nueva pestaña del navegador.")
-
+# CLASIFICAR LOS LINKS Y AGREGAR LOS PDFs DE LAS RECETAS
