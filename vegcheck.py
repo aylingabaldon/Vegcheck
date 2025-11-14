@@ -16,7 +16,7 @@ with tabs[0]:
   st. write("A continuación se presenta información relevante que es fundamental que conozcas si deseas adentrarte en el mundo del veganismo y mejorar o cambiar tu estilo de vida")
   st.subheader("¿Qué es el veganismo?")
 # st.write (AQUÍ ESCRIBIR LA DEFINICIÓN)
-  st. subheader("¿Que tipo de alimentación se tiene al ser vegano?")
+  st. subheader("¿Qué tipo de alimentación se tiene al ser vegano?")
 # st.write(AQUÍ DESCRIBIR LA ALIMENTACIÓN EN GENERAL)
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
