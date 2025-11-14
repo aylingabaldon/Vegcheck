@@ -9,9 +9,25 @@ for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
-tabs = st.tabs(["Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅Ⓥ", "Recetas Veganas 🍽️"])
+tabs = st.tabs(["Iniciación al veganismo", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅Ⓥ", "Recetas Veganas 🍽️"])
 
 with tabs[0]:
+  st.header("Iniciación al veganismo")
+  st. write("A continuación se presenta información relevante que es fundamental que conozcas si deseas adentrarte en el mundo del veganismo y mejorar o cambiar tu estilo de vida")
+  st.subheader("¿Qué es el veganismo?")
+# st.write (AQUÍ ESCRIBIR LA DEFINICIÓN)
+  st. subheader("¿Que tipo de alimentación se tiene al ser vegano?")
+# st.write(AQUÍ DESCRIBIR LA ALIMENTACIÓN EN GENERAL)
+  st.subheader("¿Cómo sustituyo los productos de origen animal?")
+# st.write(AQUI ESCRIBIR LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
+  st.subheader("Beneficios del veganismo")
+# st.write(f"ESCRIBIR LAS PRINCIPALES VENTAJAS Y BENEFICIOS DEL VEGANISMO)
+# beneficios = []
+# for beneficios in beneficios:
+# st.write(f"•{beneficios}")
+  
+
+with tabs[1]:
   st.header("Ingredientes no aptos ❌")
   st.write("Aquí encontrarás una lista de ingredientes presentes en los productos que son directamente de origen animal")
 
@@ -39,7 +55,7 @@ with tabs[0]:
   for Ingredientes in Ingredientes:
     st.write(f"➤ {Ingredientes}")
 
-with tabs[1]:
+with tabs[2]:
    st.header("Ingredientes a revisar 🔎")
    st.write("En esta sección encontrarás ingredientes que pueden ocasionar confusión entre si son de origen vegetal o de origen animal, con los cuáles se tendrá que investigar un poco más a fondo de que origen tienen antes de clasificar el producto como apto o no.")
    ingredientes =  ["**Glicerina o E422:** Puede ser vegetal o animal","**Glicerol o E422:** puede ser vegetal o animal", "**mono y digliceridos o E471:** de origen mixto", "**estereato de magnesio o E572:** puede ser vegetal o animal", "**Lecitina o E5322:** se obtiene de la soya/girasol o del huevo", 
@@ -58,7 +74,7 @@ with tabs[1]:
    for ingredientes in ingredientes:
      st.write(f"➤ {ingredientes}")
 
-with tabs[2]:
+with tabs[3]:
   st.header("Productos 100% veganos ✅Ⓥ")
   st.write("Aquí encontrarás una lista de productos que son completamente veganos, sin ingredientes de origen animal ni derivados. Estos productos son seguros para un estilo de vida 100% vegetal 🌿.")
 
@@ -125,7 +141,7 @@ with tabs[2]:
  # for p in productos:
     #  st.write(f"➤ {p}") #Falta agregar la lista
 
-with tabs[3]:
+with tabs[4]:
   st. header("Recetas Veganas 🍽️")
   st.subheader("Link útiles")
   st.write("Haz clic en los siguientes enlaces para visitar páginas de recetas")
