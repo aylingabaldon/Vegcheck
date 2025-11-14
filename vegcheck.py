@@ -207,23 +207,23 @@ with tabs[4]:
   st.info("Los enlaces se abrirán en una nueva pestaña del navegador.")
 # CLASIFICAR LOS LINKS Y AGREGAR LOS PDFs DE LAS RECETAS
   st.write("A continuación hay una serie de documentos que puedes descargar con más deliciosas recetas para preparar")
-  PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
-  with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("Vegaffinity")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="Vegaffinity.pdf",
-      mime="application/pdf")
+PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
+with open(PDF_FILE_PATH, "rb") as pdf_file:
+  PDF_bytes = pdf_file.read()
+  st.write("Vegaffinity")
+  st.download_button(
+    label="Descargar PDF",
+    data=PDF_bytes,
+    file_name="Vegaffinity.pdf",
+    mime="application/pdf")
 
-  PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
-  with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("Vegaffinity")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="Vegaffinity.pdf",
-      mime="application/pdf")
+PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
+with open(PDF_FILE_PATH, "rb") as pdf_file:
+  PDF_bytes = pdf_file.read()
+  st.write("Vegaffinity")
+  st.download_button(
+    label="Descargar PDF",
+    data=PDF_bytes,
+    file_name="Vegaffinity.pdf",
+    mime="application/pdf")
 
