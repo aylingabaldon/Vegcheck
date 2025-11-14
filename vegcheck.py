@@ -32,13 +32,14 @@ with tabs[0]:
 #    st.write(f"•{mitos}") 
     
   st.subheader("Guías para iniciar en el veganismo")
-PDF_FILE_PATH = r"1 PRÁCTICA No 1. ERROR E INCERTIDUMBRE. Agosto 2015.pdf"
+PDF_FILE_PATH = r"PETAspanishVSK.pdf"
 with open(PDF_FILE_PATH, "rb") as pdf_file:
   PDF_bytes = pdf_file.read()
+  st.write("Kit vegano para principiantes")
   st.download_button(
     label="Descargar PDF",
     data=PDF_bytes,
-    file_name="Guía_para_el_veganismo.pdf",
+    file_name="Kit_Vegano_Para_Principiantes.pdf",
     mime="application/pdf")
 
 
