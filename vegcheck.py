@@ -217,13 +217,13 @@ with open(PDF_FILE_PATH, "rb") as pdf_file:
     file_name="Vegaffinity.pdf",
     mime="application/pdf")
 
-PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
+PDF_FILE_PATH = r"MisPrimerosTacosVeganos_LoveVegMéxico_2021.pdf"
 with open(PDF_FILE_PATH, "rb") as pdf_file:
   PDF_bytes = pdf_file.read()
-  st.write("Vegaffinity")
+  st.write("Love Veg")
   st.download_button(
     label="Descargar PDF",
     data=PDF_bytes,
-    file_name="Vegaffinity.pdf",
+    file_name="TacosVeganos.pdf",
     mime="application/pdf")
 
