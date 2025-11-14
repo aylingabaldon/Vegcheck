@@ -3,6 +3,7 @@ import streamlit as st
 st.title("VegCheck 🌱💚")
 st.header("¿Eres vegano y batallas para encontrar productos 100% aptos para ti?")
 st.write("Entonces esta app es ideal para ti, aquí encontrarás información importante que te ayudará a elegir los productos que cumplan con tu estilo de vida") 
+st.sidebar.write("**VEGCHECK:** Una app para tu nuevo estilo de vida")
 st.sidebar.write("**Equipo:** ")
 Nombres = ["Paola Conde", "Aylín Gabaldón", "José Luis Guevara", "Alan López", "Luis Yepiz"]
 for Nombres in Nombres:
