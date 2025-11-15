@@ -24,8 +24,10 @@ with tabs[0]:
 
   grupos = st.selectbox(
     "Grupos", 
-    ["Legumbres", "Cereales", "Verduras", "Frutas", "Otros alimentos", "Vitamina B12"])
-  if grupos == "Legumbres":
+    ["Selecciona un grupo", "Legumbres", "Cereales", "Verduras", "Frutas", "Otros alimentos", "Vitamina B12"])
+  if grupos == "Selecciona un grupo"
+  
+  elif grupos == "Legumbres":
     st.write("**Legumbres, Frutos secos y Semillas (Más de 4 raciones al día):** Este grupo incluye frijoles, lentejas, guisantes, nueces, cacahuates, semillas de girasol, semillas de calabaza, productos de soya, entre otros. Todos estos alimentos son ricos en nutrientes coo proteínas, fibra, minerales, vitaminas del grupo B, antioidantes y ácidos grasos escenciales. Algunas de las porciones recomendadas son: 1/2tz Frijoles cocidos, 115gr Tofu, 1tz Leche de soya, 28gr de frutos secos o semillas, etc.")
   elif grupos == "Cereales":
     st.write("**Cereales o granos (De 4-6 porciones al día):** Dentro de este grupo encontramos el arroz, la avena, el trigo, la quinoa, cebada, sorgo, etc. Los cereales integrales aportan vitaminas del gruo B, fibra, inerales y antioxidantes, se recomienda evitar los refinados ya quedentro de et procedo se eliminan gran parte de los nutrientes benéficos para la salud. Una ración equivale a 1 rebanada de pan, 1/2tz de cualquier cereal cocido, 1pz Tortilla de maíz, 1/2tz Avena, 4pz Galletas saladas")
@@ -36,7 +38,7 @@ with tabs[0]:
   elif grupos == "Otros alimentos":
     st.write("**Otros alimentos:** Las grasas, como aceites y margarinas, deben de ser limitado su consumo y ser lo menos procesadas posibles. Las grasas esenciales para la alimentación provienen de alimentos como el aguacate, las aceitunas, los frutos secos y las semillas. Una porción recomendada en cuanto a los aceites es 1cdita al día.")
   elif grupos == "Vitamina B12":
-    st.write("Vitamina B12: Esta vitamina es necesaria para la formación de globulos rojos, funciones neurológicas y la síntesis del ADN. Su prncipal fuente son los alimentos de origen animal como las carnes rojas, sin embargo se puede encontrar en ciertos tipos de vegetales pero los niveles de esta vitamina varían mucho por lo que no podemosdepender de los vegetales para cubrir las necesidades diarias, por lo que se recomienda recurrir al consumo de suplementos o alimentos fortificados con esta vitamina. Hay que tomar en cuenta que no todas las vitaminas B12 etiquetadas en el mercado son aptas para veganos por lo que hay que verificar el origen de estas.")
+    st.write("**Vitamina B12:** Esta vitamina es necesaria para la formación de globulos rojos, funciones neurológicas y la síntesis del ADN. Su prncipal fuente son los alimentos de origen animal como las carnes rojas, sin embargo se puede encontrar en ciertos tipos de vegetales pero los niveles de esta vitamina varían mucho por lo que no podemosdepender de los vegetales para cubrir las necesidades diarias, por lo que se recomienda recurrir al consumo de suplementos o alimentos fortificados con esta vitamina. Hay que tomar en cuenta que no todas las vitaminas B12 etiquetadas en el mercado son aptas para veganos por lo que hay que verificar el origen de estas.")
   
   st.write("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
