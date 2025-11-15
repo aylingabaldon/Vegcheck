@@ -28,7 +28,7 @@ with tabs[0]:
             "**Otros alimentos:** Las grasas, como aceites y margarinas, deben de ser limitado su consumo y ser lo menos procesadas posibles. Las grasas esenciales para la alimentación provienen de alimentos como el aguacate, las aceitunas, los frutos secos y las semillas. Una porción recomendada en cuanto a los aceites es 1cdita al día."]
   for grupos in grupos:
     st.write(f"• {grupos}")
-  st.write("Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
+  st.write("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
   st.subheader("Beneficios del veganismo")
