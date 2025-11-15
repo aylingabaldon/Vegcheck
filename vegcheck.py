@@ -180,7 +180,7 @@ with tabs[2]:
      st.write(f"➤ {ingredientes}")
 
 with tabs[3]:
-  st.header("Productos 100% veganos ✅Ⓥ")
+  st.header("Productos 100% veganos ✅")
   st.write("Aquí encontrarás una lista de productos que son completamente veganos, sin ingredientes de origen animal ni derivados. Estos productos son seguros para un estilo de vida 100% vegetal 🌿.")
 
   # Leche vegetal
