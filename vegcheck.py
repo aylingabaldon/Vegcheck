@@ -13,7 +13,7 @@ st.sidebar.write("**Grupo:** 3L")
 tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️"])
 
 with tabs[0]:
-  st.header("Iniciación al veganismo")
+  st.header("Iniciación al veganismo👩🏻‍💻👨🏾‍💻")
   st. write("A continuación se presenta información relevante que es fundamental que conozcas si deseas adentrarte en el mundo del veganismo y mejorar o cambiar tu estilo de vida")
   st.subheader("¿Qué es el veganismo?")
   st.write("El veganismo es una filosofía y un estilo de vida que busca excluir, en la medida de lo posible y practicable, toda forma de explotación y crueldad hacia los animales para la alimentación, la vestimenta o cualquier otro propósito; y, por extensión, promueve el desarrollo y el uso de alternativas libres de productos animales en beneficio de los animales, los seres humanos y el medio ambiente. En términos dietéticos, denota la práctica de prescindir de todos los productos derivados total o parcialmente de animales.")
