@@ -44,6 +44,7 @@ with tabs[0]:
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR UNA BREVE INTRODUCCIÓN LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
 # INCLUIR IMAGENES DE LOS PRODUCTOS
+  st.markdown("Leche")
   col1, col2 = st.columns(2)
   with col1:
     st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200")
