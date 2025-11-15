@@ -211,6 +211,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Vegaffinity** 🥘")
+    st.write("En este recetario encontrarás gran variedad de recetas conocidas o comunes pero con su alternativa vegana")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -221,6 +222,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Tacos Veganos**🌮")
+    st.write("Como buen Mexicano los tacos no pueden faltar en la alimentación, este recetario está dedicado a como preparar diferentes tipos de tacos sin productos de origen animal")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -231,6 +233,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Más recetas**🌯")
+    st.write("Este recetario te da ideas desde desayunos, platos fuertes, postres y hasta bebidas")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -241,6 +244,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Recetas patrias**🌶️")
+    st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
