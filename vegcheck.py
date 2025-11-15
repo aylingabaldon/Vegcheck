@@ -26,7 +26,7 @@ with tabs[0]:
     "Grupos", 
     ["Selecciona un grupo", "Legumbres", "Cereales", "Verduras", "Frutas", "Otros alimentos", "Vitamina B12"])
   if grupos == "Selecciona un grupo":
-  
+    
   elif grupos == "Legumbres":
     st.write("**Legumbres, Frutos secos y Semillas (Más de 4 raciones al día):** Este grupo incluye frijoles, lentejas, guisantes, nueces, cacahuates, semillas de girasol, semillas de calabaza, productos de soya, entre otros. Todos estos alimentos son ricos en nutrientes coo proteínas, fibra, minerales, vitaminas del grupo B, antioidantes y ácidos grasos escenciales. Algunas de las porciones recomendadas son: 1/2tz Frijoles cocidos, 115gr Tofu, 1tz Leche de soya, 28gr de frutos secos o semillas, etc.")
   elif grupos == "Cereales":
