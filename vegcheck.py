@@ -10,7 +10,7 @@ for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
-tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅Ⓥ", "Recetas Veganas 🍽️"])
+tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️"])
 
 with tabs[0]:
   st.header("Iniciación al veganismo")
