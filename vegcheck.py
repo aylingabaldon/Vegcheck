@@ -234,5 +234,5 @@ with tabs[4]:
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
-      file_name="TacosVeganos.pdf",
+      file_name="RecetarioLoveveg.pdf",
       mime="application/pdf")
