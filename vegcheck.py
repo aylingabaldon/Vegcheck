@@ -21,7 +21,7 @@ with tabs[0]:
   st.write("Hay muchas maneras de adoptar un estilo de vida vegano. Sin embargo, algo que todos los veganos tienen en común es una dieta basada en plantas que evita todos los alimentos de origen animal, como la carne (incluidos el pescado, los mariscos y los insectos), los lácteos, los huevos y la miel ; además de evitar materiales derivados de animales, productos probados en animales y lugares que utilizan animales para el entretenimiento.")
   st.write("La dieta vegana es muy variada e incluye todo tipo de frutas, verduras, frutos secos, cereales, semillas, legumbres y frijoles, que se pueden preparar en infinitas combinaciones.")
   st.write("Una dieta vegana equilibrada se componede cuatro grupos de alimentos:")
-  grupos = ["Legumbres, Frutos secos y Semillas", "Cereales", "Verduras", "Frutas")
+  grupos = ["Legumbres, Frutos secos y Semillas", "Cereales", "Verduras", "Frutas"]
   for grupos in grupos:
   st..write(f"• {grupos}")   
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
