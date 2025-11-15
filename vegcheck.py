@@ -43,17 +43,16 @@ with tabs[0]:
   st.write("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR UNA BREVE INTRODUCCIÓN LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
-# INCLUIR IMAGENES DE LOS PRODUCTOS
 
   # ESTE ES UN EJEMPLO DE COMO SE DEBE DE PONER CADA PRODUCTO, SE PUEDE COPIAR Y PEGAR PARA QUE PONGAN TODAS LAS CATEGORÍAS
   st.write("**LECHE**")
 # st.write("Incluir una breve descripción")
   col1, col2 = st.columns(2)
-  with col1:
+  with col1: # ESTOS LINKS NO SON DE LAS IMGENES, SE DEBEN DE CAMBIAR
     st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200")
   with col2:
     st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true")
- 
+ # MODIFICAR ESTE TAMBIEN, SOLO ERA DE PRUEBA PARA VER SI SE PODÍA DUPLICAR
   st.write("**LECHE**")
 # st.write("Incluir una breve descripción")
   col1, col2 = st.columns(2)
@@ -61,18 +60,31 @@ with tabs[0]:
     st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200")
   with col2:
     st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true")
+  
+  # EN LOS CODIGOS QUE DICEN ST.WRITE PARA QUE SE PUEDAN VER SE LES QUITA EL # 
+  
   st.subheader("Beneficios del veganismo")
+# st.write("Escribir una breve introducción sobre lo que se hablará")
 # "ESCRIBIR LAS PRINCIPALES VENTAJAS Y BENEFICIOS DEL VEGANISMO)
-# beneficios = []
+# beneficios = ["AQUI VAN A PONER TODA LA INFORMACIÓN DE LOS BENEFICIOS",
+          #   "BENEFICIO 1:      ",
+           #  "BENEFICIO 2:     ",
+            # "BENEFICIO 3:     ", ]
 # for beneficios in beneficios:
 # st.write(f"•{beneficios}")
+# AL FINAL PARA QUE SE VEA SE LE BORRAN LOS #
   st.subheader("Mitos del veganismo")
-# AQUÍ ESCRIBIR ALGUNOS DE LOS MITOS MÁS SONADOS Y LA RAZON POR LA QUE NO ES VERDAD)
-#  mitos = []
+# st.write("Escribir una breve introducción sobre lo que se hablará")
+# mitos = ["AQUÍ VAN LOS MITOS MÁS SONADOS ENLISTADOS Y LA RAZON POR LA QUE NO ES VERDAD",
+  #    "MITO 1:   ",
+  #     "MITO 2:     ",
+  #     "MITO 3:    ", ]
 #  for mitos in mitos:
 #    st.write(f"•{mitos}") 
-    
+  # AL FINAL PARA QUE SE VEA SE LE BORRAN LOS #
   st.subheader("Guías para iniciar en el veganismo")
+  st.write("Si estas interesado en iniciar o cambiar tu estilo de vida por un un estilo vegano, aquí hay algunas guías con información útil que te ayudarán a iniciar y conocer lo básico, sin embargo recuerda que siempre debes de acudir con un profesional de la salud para que te oriente de la mejor manera y no se presente algún inconveniente")
+
   PDF_FILE_PATH = r"PETAspanishVSK.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
