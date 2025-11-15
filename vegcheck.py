@@ -83,7 +83,7 @@ with tabs[0]:
 #    st.write(f"•{mitos}") 
   # AL FINAL PARA QUE SE VEA SE LE BORRAN LOS #
   st.subheader("Guías para iniciar en el veganismo")
-  st.write("Si estas interesado en iniciar o cambiar tu estilo de vida por un un estilo vegano, aquí hay algunas guías con información útil que te ayudarán a iniciar y conocer lo básico, sin embargo recuerda que siempre debes de acudir con un profesional de la salud para que te oriente de la mejor manera y no se presente algún inconveniente")
+  st.write("Si estas interesado en iniciar o cambiar tu estilo de vida por un un estilo vegano, aquí hay algunas guías con información útil que te ayudarán a iniciar y conocer lo básico, sin embargo recuerda que siempre debes de acudir con un profesional de la salud para que te oriente de la mejor manera y no se presente algún inconveniente.")
 
   PDF_FILE_PATH = r"PETAspanishVSK.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
