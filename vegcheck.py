@@ -197,8 +197,8 @@ with tabs[3]:
 
 with tabs[4]:
   st. header("Recetas Veganas 🍽️")
-  st.subheader("Links útiles")
   st.write("Sabemos que a veces es dificil pensar en nuevas recetas o en otras opciones que se adapten a tu alimentación vegana, para ayudarte con eso te dejamos una variedad de link y documentos que te van a servir a variar tus comidas y tener más ideas desde desayunos, comidas, guarniciones y hasta postres.")
+  st.subheader("Links útiles")
   st.write("Haz clic en los siguientes enlaces para visitar páginas de recetas.")
   st.markdown("[LoveVeg](https://loveveg.mx/recetas/)")
   st.markdown("[Nutritionfacts](https://nutritionfacts.org/es/recipes/)")
