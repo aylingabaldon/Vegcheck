@@ -23,7 +23,7 @@ with tabs[0]:
   st.write("Una dieta vegana equilibrada se componede cuatro grupos de alimentos:")
   grupos = ["Legumbres, Frutos secos y Semillas", "Cereales", "Verduras", "Frutas"]
   for grupos in grupos:
-  st..write(f"• {grupos}")   
+    st..write(f"• {grupos}")   
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
   st.subheader("Beneficios del veganismo")
