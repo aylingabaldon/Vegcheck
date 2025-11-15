@@ -54,6 +54,8 @@ with tabs[0]:
   with col2:
     st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true")
  
+  st.write("**LECHE**")
+# st.write("Incluir una breve descripción")
   col1, col2 = st.columns(2)
   with col1:
     st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200")
