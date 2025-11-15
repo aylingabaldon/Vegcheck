@@ -210,7 +210,7 @@ with tabs[4]:
   PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
-    st.write("Vegaffinity")
+    st.write("Vegaffinity 🥘")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -220,7 +220,7 @@ with tabs[4]:
   PDF_FILE_PATH = r"MisPrimerosTacosVeganos_LoveVegMéxico_2021.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
-    st.write("Love Veg: 'Tacos Veganos'")
+    st.write("Love Veg: 'Tacos Veganos'🌮")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -230,9 +230,20 @@ with tabs[4]:
   PDF_FILE_PATH = r"EnCasa_-ConLoveVeg_-Recetario.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
-    st.write("Love Veg: Más recetas")
+    st.write("Love Veg: Más recetas 🌯")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
       file_name="RecetarioLoveveg.pdf",
       mime="application/pdf")
+
+  PDF_FILE_PATH = r"Recetario_Patrio.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("Love Veg: Recetas patrias 🇲🇽")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="RecetasPatrias.pdf",
+      mime="application/pdf")
+
