@@ -197,7 +197,7 @@ with tabs[3]:
 
 with tabs[4]:
   st. header("Recetas Veganas 🍽️")
-  st.subheader("Link útiles")
+  st.subheader("Links útiles")
   st.write("Haz clic en los siguientes enlaces para visitar páginas de recetas")
   st.markdown("[LoveVeg](https://loveveg.mx/recetas/)")
   st.markdown("[Nutritionfacts](https://nutritionfacts.org/es/recipes/)")
@@ -206,6 +206,7 @@ with tabs[4]:
   st.markdown("[PCRM](https://www.pcrm.org/good-nutrition/plant-based-diets/recipes)")
   st.info("Los enlaces se abrirán en una nueva pestaña del navegador.")
 # CLASIFICAR LOS LINKS Y AGREGAR LOS PDFs DE LAS RECETAS
+  st.subheader("Recetarios descargables")
   st.write("A continuación hay una serie de documentos que puedes descargar con más deliciosas recetas para preparar")
   PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
@@ -250,4 +251,27 @@ with tabs[4]:
       data=PDF_bytes,
       file_name="RecetasPatrias.pdf",
       mime="application/pdf")
+
+  PDF_FILE_PATH = r"recetario_huevo.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("**Alternativas del huevo**🥚")
+    st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Recetasparasustituirelhuevo.pdf",
+      mime="application/pdf")
+
+  PDF_FILE_PATH = r"recetario_pollo.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("**Alternativas del pollo**🌶️")
+    st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes, aquí te muestran diferentes alternativas para sustituirlo")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Recetasparasustituirelpollo.pdf",
+      mime="application/pdf")
+
 
