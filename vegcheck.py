@@ -49,9 +49,9 @@ with tabs[0]:
 # st.write("Incluir una breve descripción")
   col1, col2 = st.columns(2)
   with col1: # ESTOS LINKS NO SON DE LAS IMGENES, SE DEBEN DE CAMBIAR
-    st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200")
+    st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
   with col2:
-    st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true")
+    st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
  # MODIFICAR ESTE TAMBIEN, SOLO ERA DE PRUEBA PARA VER SI SE PODÍA DUPLICAR
   st.write("**LECHE**")
 # st.write("Incluir una breve descripción")
