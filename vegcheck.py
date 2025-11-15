@@ -107,7 +107,7 @@ with tabs[2]:
    ingredientes =  ["**Glicerina o E422:** Puede ser vegetal extraída de aceites de coco, soya, maíz o palma, sin embargo también puede provenir de grasas animales por lo que se debe de buscar en la etiqueta que diga 'glicerina vegetal.'",
                     "**Mono y digliceridos o E471:** Son de origen mixto: Los de origen vegetal provienen de aceites de soya, girasol o palma y los de origen animal provienende las grasas o aceites animales. Normalmente en la etiqueta especifica si son de origen vegetal o animal.",
                     "**Estearato de magnesio o E572:** Esta sal del ácido esteárico, es un ácido graso saturado que puede ser derivado de fuentes animales como el cebo de res, o de fuentes vegetales como el aceite de coco o palma. Se debe buscar en la etiqueta si especifica que es de origen vegetal.", 
-                    "**Lecitina o E5322:** Esta grasa natural se obtiene de la soya o girasol, sin embargo también puede provenir de fuentes animales como el huevo. Por lo tanto se debe buscar que en la etiqueta diga 'Lecitina de soya' o 'Lecitina de girasol'.", 
+                    '**Lecitina o E5322:** Esta grasa natural se obtiene de la soya o girasol, sin embargo también puede provenir de fuentes animales como el huevo. Por lo tanto se debe buscar que en la etiqueta diga "Lecitina de soya" o "Lecitina de girasol".', 
                     "**Acido esteárico:** Es un ácido graso natural puede provenir de grasa animal o vegetal. Se debe verificar el origen de este o que el producto esté certificado como vegano.",
                     "**L cisteína o E910-E913:** Este es un aminoácido no esencial que frecuentemente se obtiene de fuentes animales, sin embargo se puede producir de forma sintética mediante la fermentación del almidón. Comprobar si el producto está certificado como vegano.",
                     "**Saborizante natural:** No necesariamnte es apto para veganos ya que puede contener compuestos de origen animal o derivar de estos y la etiqueta no siempre lo especifica, por lo que se debe de buscar si el producto cuenta con una certificación o sello vegano.", 
@@ -198,7 +198,8 @@ with tabs[3]:
 with tabs[4]:
   st. header("Recetas Veganas 🍽️")
   st.subheader("Links útiles")
-  st.write("Haz clic en los siguientes enlaces para visitar páginas de recetas")
+  st.write("Sabemos que a veces es dificil pensar en nuevas recetas o en otras opciones que se adapten a tu alimentación vegana, para ayudarte con eso te dejamos una variedad de link y documentos que te van a servir a variar tus comidas y tener más ideas desde desayunos, comidas, guarniciones y hasta postres.")
+  st.write("Haz clic en los siguientes enlaces para visitar páginas de recetas.")
   st.markdown("[LoveVeg](https://loveveg.mx/recetas/)")
   st.markdown("[Nutritionfacts](https://nutritionfacts.org/es/recipes/)")
   st.markdown("[Veganoutreach](https://veganoutreach.org/recetas/)")
@@ -207,12 +208,12 @@ with tabs[4]:
   st.info("Los enlaces se abrirán en una nueva pestaña del navegador.")
 # CLASIFICAR LOS LINKS Y AGREGAR LOS PDFs DE LAS RECETAS
   st.subheader("Recetarios descargables")
-  st.write("A continuación hay una serie de documentos que puedes descargar con más deliciosas recetas para preparar")
+  st.write("A continuación hay una serie de documentos que puedes descargar con más deliciosas recetas para preparar.")
   PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Vegaffinity** 🥘")
-    st.write("En este recetario encontrarás gran variedad de recetas conocidas o comunes pero con su alternativa vegana")
+    st.write("En este recetario encontrarás gran variedad de recetas conocidas o comunes pero con su alternativa vegana.")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -223,7 +224,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Tacos Veganos**🌮")
-    st.write("Como buen Mexicano los tacos no pueden faltar en la alimentación, este recetario está dedicado a como preparar diferentes tipos de tacos sin productos de origen animal")
+    st.write("Como buen Mexicano los tacos no pueden faltar en la alimentación, este recetario está dedicado a como preparar diferentes tipos de tacos sin productos de origen animal.")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -234,7 +235,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Más recetas**🌯")
-    st.write("Este recetario te da ideas desde desayunos, platos fuertes, postres y hasta bebidas")
+    st.write("Este recetario te da ideas desde desayunos, platos fuertes, postres y hasta bebidas.")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -245,7 +246,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Recetas patrias**🌶️")
-    st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades")
+    st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades.")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -256,7 +257,7 @@ with tabs[4]:
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Alternativas del huevo**🥚")
-    st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana")
+    st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana.")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
@@ -266,8 +267,8 @@ with tabs[4]:
   PDF_FILE_PATH = r"recetario_pollo.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
-    st.write("**Alternativas del pollo**🌶️")
-    st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes, aquí te muestran diferentes alternativas para sustituirlo")
+    st.write("**Alternativas del pollo**🐤")
+    st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes?, aquí te muestran diferentes alternativas para sustituirlo.")
     st.download_button(
       label="Descargar PDF",
       data=PDF_bytes,
