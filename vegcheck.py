@@ -1,5 +1,4 @@
 import streamlit as st
-import panda as pd
 
 st.title("VegCheck 🌱💚")
 st.header("¿Eres vegano y batallas para encontrar productos 100% aptos para ti?")
