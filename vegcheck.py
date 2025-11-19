@@ -400,8 +400,8 @@ with tabs[5]:
  st.subheader("**almuerzos**")
  st.write("aqui hay recetas variadas para almorzar en su dia a dia")
     
- PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
- with open(PDF_FILE_PATH, "rb") as pdf_file:
+  PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Vegaffinity** 🥘")
     st.write("En este recetario encontrarás gran variedad de recetas conocidas o comunes pero con su alternativa vegana.")
