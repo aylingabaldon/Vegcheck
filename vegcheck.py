@@ -84,7 +84,7 @@ with tabs[0]:
   st.write("· 2 huevos (aprox. 120 g) → 13-14 g de proteína")
   st.write("· 100 g de seitán → 24 g de proteína")
   st.write("· 100 g de atún en conserva al natural → 24-26 g de proteína")
-  st.write("Otro error común es pensar que, si un alimento como las lentejas no contiene un aminoácido esencial como la metionina, y entonces no se puede considerar una fuente válida de proteína. Lo cierto es que, combinándolas con alimentos ricos en lisina (como arroz o pan), obtenemos proteínas completas. Además, no es necesario hacerlo en la misma comida, basta con consumir variedad a lo largo del día.")
+  st.write("Otro error común es pensar que, si un alimento como las lentejas no contiene un aminoácido esencial como la metionina, entonces no se puede considerar una fuente válida de proteína. Lo cierto es que, combinándolas con alimentos ricos en lisina (como arroz o pan), obtenemos proteínas completas. Además, no es necesario hacerlo en la misma comida, basta con consumir variedad a lo largo del día.")
 # st.write("Escribir una breve introducción sobre lo que se hablará")
 # mitos = ["AQUÍ VAN LOS MITOS MÁS SONADOS ENLISTADOS Y LA RAZON POR LA QUE NO ES VERDAD",
   #    "MITO 1:   ",
