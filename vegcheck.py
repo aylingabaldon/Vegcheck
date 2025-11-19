@@ -373,6 +373,33 @@ with tabs[5]:
 # CLASIFICAR LOS LINKS Y AGREGAR LOS PDFs DE LAS RECETAS
   st.subheader("Recetarios descargables")
   st.write("A continuación hay una serie de documentos que puedes descargar con más deliciosas recetas para preparar.")
+  st.subheader("**desayunos**")
+  st.write("podra encontrar en estos recetarios algunas ideas para comenzar su dia")
+
+   PDF_FILE_PATH = r"EnCasa_-ConLoveVeg_-Recetario.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("**Love Veg: Más recetas**🌯")
+    st.write("Este recetario te da ideas desde desayunos, platos fuertes, postres y hasta bebidas.")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="RecetarioLoveveg.pdf",
+      mime="application/pdf")
+
+  PDF_FILE_PATH = r"recetario_huevo.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("**Alternativas del huevo**🥚")
+    st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana.")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Recetasparasustituirelhuevo.pdf",
+      mime="application/pdf")
+st.subheader("**almuerzos**")
+st.write("aqui hay recetas variadas para almorzar en su dia a dia")
+    
   PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
@@ -395,17 +422,6 @@ with tabs[5]:
       file_name="TacosVeganos.pdf",
       mime="application/pdf")
 
-  PDF_FILE_PATH = r"EnCasa_-ConLoveVeg_-Recetario.pdf"
-  with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("**Love Veg: Más recetas**🌯")
-    st.write("Este recetario te da ideas desde desayunos, platos fuertes, postres y hasta bebidas.")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="RecetarioLoveveg.pdf",
-      mime="application/pdf")
-
   PDF_FILE_PATH = r"Recetario_Patrio.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
@@ -415,17 +431,6 @@ with tabs[5]:
       label="Descargar PDF",
       data=PDF_bytes,
       file_name="RecetasPatrias.pdf",
-      mime="application/pdf")
-
-  PDF_FILE_PATH = r"recetario_huevo.pdf"
-  with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("**Alternativas del huevo**🥚")
-    st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana.")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="Recetasparasustituirelhuevo.pdf",
       mime="application/pdf")
 
   PDF_FILE_PATH = r"recetario_pollo.pdf"
