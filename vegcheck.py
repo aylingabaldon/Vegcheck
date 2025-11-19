@@ -13,7 +13,7 @@ for Nombres in Nombres:
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
 st.sidebar.image("https://uach.mx/assets/media/publications/2022/11/4120_simbolos-universitarios/Escudo.png", width=200)
-tabs = st.tabs(["**Iniciación al veganismo**👩🏻‍💻👨🏾‍💻", "**Ingredientes no aptos** ❌", "**Ingredientes a revisar** 🔎", "**Productos 100% veganos** ✅", "**Recetas Veganas** 🍽️", "**Nutrientes, ¿dónde encontrarlos?** 🫘🥜 🟰 🥩"])
+tabs = st.tabs(["**Iniciación al veganismo**👩🏻‍💻👨🏾‍💻", "**Nutrientes, ¿dónde encontrarlos?** 🫘🥜 🟰 🥩"], "**Ingredientes no aptos** ❌", "**Ingredientes a revisar** 🔎", "**Productos 100% veganos** ✅", "**Recetas Veganas** 🍽️")
 st.markdown("""
 <style>
 .stTabs [data-baseweb="tab-list"] {
@@ -180,6 +180,38 @@ with tabs[0]:
       mime="application/pdf")
 
 with tabs[1]:
+  st.header("Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩")
+  st.write("En esta pestaña encontraras los principales ''SUSTITUTOS'' de los alimentos de origen animal para desmentir creencias como que si dejas de tomar leche te faltará calcio en tu dieta y por consecuente sufrir de osteoporosis.")
+  st.write("Hay muchas opciones entre los alimentos de origen vegetal que se puede encontrar disponibles en casi cualquier supermercado. Alimentos que hemos consumido durante toda la vida, que son asequibles, económicos y que no hace falta sino incorporarlos en mayor medida en la alimentación o alternarlos para tener una mayor diversidad de los nutrientes que necesitamos día a día, alimentos que todos conocemos, como:")
+  st.write("")
+  st.write("**Legumbres:** Fríjoles, garbanzos, lentejas, soya, chícharos y el cacahuate.")
+  st.write("**Verduras:** De las cuales hay muchas variedades como espinacas, zanahoria, lechuga, brócoli, berenjenas, betabel, coliflor, cebolla, ajo, entre muchas más.")
+  st.write("**Frutas:** Como el platano, tomate, fresas, piña, guayaba, papaya, guanábana, maracuyá, melón, sandía, uvas, y muchas más.")
+  st.write("**Frutos secos y semillas:** Almendras, avellanas, nueces, pistachos, semillas de calabaza, semillas de girasol, semillas de cañamo, etc.")
+  st.write("**Alimentos procesados:** Como sustitutos a los productos de origen animal listos para preparar, que no son indispensables pero pueden ser muy útiles para mantener ciertos sabores sin necesidad de explotar a ningún animal.")
+  st.write("**También muchos tipos de galetas, panadería, snacks, bebidas, etc.**")
+  st.write("")
+  st.subheader("¿Cuáles nutrientes necesitamos y de dónde los obtenemos?")
+  st.write("Nuestro organismo requiere ciertas sustancias para mantenerse las reacciones metabólicas que nos mantienen vivos, sanos y que permiten reproducirnos, a estas sustancias se les denomina nutrientes. Entre los nutrientes esenciales para la vida se encuentran:")
+  st.write("")
+  st.write("**Los aminoácidos:** que son las unidades con las que se forman las proteínas y de los cuáles necesitamos 9 que son llamados aminoácidos esenciales, y con los que al mismo tiempo nuestro organismo produce otros aminoácidos.")
+  st.write("**Ácidos grasos:** como el famoso omega 3 y omega 6.")
+  st.write("**Vitaminas:** que son las vitaminas A, C, D, E, K, B1, B2, B3, B5, B6, B7, B9, B12.")
+  st.write("**Minerales:** potasio, cloruro, sodio, manganeso, cobre, calcio, fósforo, magnesio, hierro, zinc, yodo, cromo, molibdeno, selenio y cobalto.")
+  st.write("Además de los carbohidratos y grasas, indispensables para obtener la energía que nuestro cuerpo usa a diario.")
+  st.write("")
+  st.write("Todos estos nutrientes pueden ser obtenidos a partir de una alimentación bien planeada y apta para veganos, incluso la famosa vitamina B12 que obtenemos principalmente de suplementos y alimentos fortificados con esta.")
+  st.write("")
+  st.subheader("¿Y las deficiencias nutricionales?")
+  st.write("Cada tipo de alimentación, tiene unos nutrientes a los que debemos prestar mayor atención que a otros por la facilidad o dificultad que sea obtenerlos de los alimentos, por ejemplo, en el caso de nosotros como veganos, debemos prestar mayor atención a nutrientes como la vitamina B12. Sin embargo, esto no implica que vayamos a enfermarnos o a tener deficiencias de estos nutrientes con una alimentación bien planeada, de hecho puede ser totalmente lo contrario. Aunque si te lega a pasar seguramente te dirán que es por levar una ''alimentación vegana'', lo cuál ya vimos que es completamente falso, y se podrá solucionar sin dejar de ser veganos.")
+  st.write("")
+  st.write("Es muy común que nunca nos enseñen a obtener los nutrientes que necesitamos de la alimentación, y es por esto que la mayor parte de la población, sin necesidad de ser veganos o no, tiene malos hábitos que derivan en ciertos tipos de enfermedades o deficiencias nutricionales, incluso en mitos nutricionales sin ningún fundamento.")
+  st.write("")
+  st.write("También es común escuchar que los veganos tenemos mayores riesgos de deficiencias en hierro, vitamina D, vitamina B12 o calcio, sin embargo, esto no es del todo cierto, pues estas son las deficiencias más comunes en todos los seres humanos, debido precisamente a malos hábitos o poca responsabilidad. **Y no quiere decir que debemos estar tranquilos, sino que por el contrario, debemos ser responsables y dar el mejor ejemplo, demostrando que es perfectamente posible serlo.**")
+  st.write("")
+
+
+with tabs[2]:
   st.header("Ingredientes no aptos ❌")
   st.write("Aquí encontrarás una lista de ingredientes presentes en los productos que son directamente de origen animal")
 
@@ -207,7 +239,7 @@ with tabs[1]:
   for Ingredientes in Ingredientes:
     st.write(f"➤ {Ingredientes}")
 
-with tabs[2]:
+with tabs[3]:
    st.header("Ingredientes a revisar 🔎")
    st.write("En esta sección encontrarás ingredientes que pueden ocasionar confusión entre si son de origen vegetal o de origen animal, con los cuáles se tendrá que investigar un poco más a fondo de que origen tienen antes de clasificar el producto como apto o no.")
    ingredientes =  ['**Glicerina o E422:** Puede ser vegetal extraída de aceites de coco, soya, maíz o palma, sin embargo también puede provenir de grasas animales por lo que se debe de buscar en la etiqueta que diga "glicerina vegetal."',
@@ -233,7 +265,7 @@ with tabs[2]:
    for ingredientes in ingredientes:
      st.write(f"➤ {ingredientes}")
 
-with tabs[3]:
+with tabs[4]:
   st.header("Productos 100% veganos ✅")
   st.write("Aquí encontrarás una lista de productos que son completamente veganos, sin ingredientes de origen animal ni derivados. Estos productos son seguros para un estilo de vida 100% vegetal 🌿.")
 
@@ -323,7 +355,7 @@ with tabs[3]:
   for nombre, link in productos_veganos.items():
     st.write(f"• [{nombre}]({link})")
 
-with tabs[4]:
+with tabs[5]:
   st. header("Recetas Veganas 🍽️")
   st.write("Sabemos que a veces es dificil pensar en nuevas recetas o en otras opciones que se adapten a tu alimentación vegana, para ayudarte con eso te dejamos una variedad de link y documentos que te van a servir a variar tus comidas y tener más ideas desde desayunos, comidas, guarniciones y hasta postres.")
   st.subheader("Links útiles")
@@ -403,34 +435,4 @@ with tabs[4]:
       file_name="Recetasparasustituirelpollo.pdf",
       mime="application/pdf")
 
-with tabs[5]:
-  st.header("Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩")
-  st.write("En esta pestaña encontraras los principales ''SUSTITUTOS'' de los alimentos de origen animal para desmentir creencias como que si dejas de tomar leche te faltará calcio en tu dieta y por consecuente sufrir de osteoporosis.")
-  st.write("Hay muchas opciones entre los alimentos de origen vegetal que se puede encontrar disponibles en casi cualquier supermercado. Alimentos que hemos consumido durante toda la vida, que son asequibles, económicos y que no hace falta sino incorporarlos en mayor medida en la alimentación o alternarlos para tener una mayor diversidad de los nutrientes que necesitamos día a día, alimentos que todos conocemos, como:")
-  st.write("")
-  st.write("**Legumbres:** Fríjoles, garbanzos, lentejas, soya, chícharos y el cacahuate.")
-  st.write("**Verduras:** De las cuales hay muchas variedades como espinacas, zanahoria, lechuga, brócoli, berenjenas, betabel, coliflor, cebolla, ajo, entre muchas más.")
-  st.write("**Frutas:** Como el platano, tomate, fresas, piña, guayaba, papaya, guanábana, maracuyá, melón, sandía, uvas, y muchas más.")
-  st.write("**Frutos secos y semillas:** Almendras, avellanas, nueces, pistachos, semillas de calabaza, semillas de girasol, semillas de cañamo, etc.")
-  st.write("**Alimentos procesados:** Como sustitutos a los productos de origen animal listos para preparar, que no son indispensables pero pueden ser muy útiles para mantener ciertos sabores sin necesidad de explotar a ningún animal.")
-  st.write("**También muchos tipos de galetas, panadería, snacks, bebidas, etc.**")
-  st.write("")
-  st.subheader("¿Cuáles nutrientes necesitamos y de dónde los obtenemos?")
-  st.write("Nuestro organismo requiere ciertas sustancias para mantenerse las reacciones metabólicas que nos mantienen vivos, sanos y que permiten reproducirnos, a estas sustancias se les denomina nutrientes. Entre los nutrientes esenciales para la vida se encuentran:")
-  st.write("")
-  st.write("**Los aminoácidos:** que son las unidades con las que se forman las proteínas y de los cuáles necesitamos 9 que son llamados aminoácidos esenciales, y con los que al mismo tiempo nuestro organismo produce otros aminoácidos.")
-  st.write("**Ácidos grasos:** como el famoso omega 3 y omega 6.")
-  st.write("**Vitaminas:** que son las vitaminas A, C, D, E, K, B1, B2, B3, B5, B6, B7, B9, B12.")
-  st.write("**Minerales:** potasio, cloruro, sodio, manganeso, cobre, calcio, fósforo, magnesio, hierro, zinc, yodo, cromo, molibdeno, selenio y cobalto.")
-  st.write("Además de los carbohidratos y grasas, indispensables para obtener la energía que nuestro cuerpo usa a diario.")
-  st.write("")
-  st.write("Todos estos nutrientes pueden ser obtenidos a partir de una alimentación bien planeada y apta para veganos, incluso la famosa vitamina B12 que obtenemos principalmente de suplementos y alimentos fortificados con esta.")
-  st.write("")
-  st.subheader("¿Y las deficiencias nutricionales?")
-  st.write("Cada tipo de alimentación, tiene unos nutrientes a los que debemos prestar mayor atención que a otros por la facilidad o dificultad que sea obtenerlos de los alimentos, por ejemplo, en el caso de nosotros como veganos, debemos prestar mayor atención a nutrientes como la vitamina B12. Sin embargo, esto no implica que vayamos a enfermarnos o a tener deficiencias de estos nutrientes con una alimentación bien planeada, de hecho puede ser totalmente lo contrario. Aunque si te lega a pasar seguramente te dirán que es por levar una ''alimentación vegana'', lo cuál ya vimos que es completamente falso, y se podrá solucionar sin dejar de ser veganos.")
-  st.write("")
-  st.write("Es muy común que nunca nos enseñen a obtener los nutrientes que necesitamos de la alimentación, y es por esto que la mayor parte de la población, sin necesidad de ser veganos o no, tiene malos hábitos que derivan en ciertos tipos de enfermedades o deficiencias nutricionales, incluso en mitos nutricionales sin ningún fundamento.")
-  st.write("")
-  st.write("También es común escuchar que los veganos tenemos mayores riesgos de deficiencias en hierro, vitamina D, vitamina B12 o calcio, sin embargo, esto no es del todo cierto, pues estas son las deficiencias más comunes en todos los seres humanos, debido precisamente a malos hábitos o poca responsabilidad. **Y no quiere decir que debemos estar tranquilos, sino que por el contrario, debemos ser responsables y dar el mejor ejemplo, demostrando que es perfectamente posible serlo.**")
-  st.write("")
 
