@@ -395,9 +395,7 @@ with tabs[5]:
       data=PDF_bytes,
       file_name="Recetasparasustituirelhuevo.pdf",
       mime="application/pdf")
- st.subheader("**almuerzos**")
- st.write("aqui hay recetas variadas para almorzar en su dia a dia")
-    
+     
   PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
