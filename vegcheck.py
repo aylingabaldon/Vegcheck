@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("VegCheck app icon.png")
+st.image("VegCheck app icon.png", width=100)
 st.title("VegCheck 🌱💚")
 st.header("¿Eres vegano y batallas para encontrar productos 100% aptos para ti?")
 st.write("Entonces esta app es ideal para ti, aquí encontrarás información importante que te ayudará a elegir los productos que cumplan con tu estilo de vida")
