@@ -113,12 +113,12 @@ with tabs[0]:
 
   st.subheader("**Mitos del veganismo**")
   st.write("Existen diversos mitos de la alimentació basada en plantas o veganas que pueden generar duda al momento d elegir este estilo de vida, sin embargo muchos de ellos no son del todo ciertos, a continuación te presentamos los mitos más sonados o comunes y una breve explicación de estos")
-  mitos == st.selectbox(
+  mito == st.selectbox(
     "Mitos", 
     ["Selecciona un mito", "🔸Las dietas vegetarianas son carentes de proteínas", "🔸La soya produce cáncer de mama", "🔸La dieta vegetariana o vegana es muy cara"])
-  if mitos == "Selecciona un mito":
+  if mito == "Selecciona un mito":
     st.write("Selecciona un mito para descubrir más información sobre este")
-  elif mitos == "🔸Las dietas vegetarianas son carentes de proteínas":
+  elif mito == "🔸Las dietas vegetarianas son carentes de proteínas":
     st.subheader("🔸Las dietas vegetarianas son carentes de proteínas")
     st.write("Este es, sin duda, uno de los mitos más extendidos. Si sigues una dieta vegetariana o vegana, no te va a faltar proteína. Las proteínas están presentes tanto en alimentos de origen animal como vegetal, e incluso, en algunos casos, pueden presentar mejor biodisponibilidad las de origen vegetal.Legumbres, frutos secos, soya y sus derivados (tofu, tempeh), seitán (proteína del trigo) y cereales integrales pueden aportar proteínas de calidad. Aquí algunas equivalencias:")
     st.write("· 100 g de pollo → 23 g de proteína")
@@ -128,13 +128,13 @@ with tabs[0]:
     st.write("· 100 g de seitán → 24 g de proteína")
     st.write("· 100 g de atún en conserva al natural → 24-26 g de proteína")
     st.write("Otro error común es pensar que, si un alimento como las lentejas no contiene un aminoácido esencial como la metionina, entonces no se puede considerar una fuente válida de proteína. Lo cierto es que, combinándolas con alimentos ricos en lisina (como arroz o pan), obtenemos proteínas completas. Además, no es necesario hacerlo en la misma comida, basta con consumir variedad a lo largo del día.")
-  elif mitos == "🔸La soya produce cáncer de mama":
+  elif mito == "🔸La soya produce cáncer de mama":
     st.subheader("🔸La soya produce cáncer de mama")
     st.write("Otro mito sin respaldo científico. La soya no solo no produce cáncer de mama, sino que puede ejercer un efecto protector. Su consumo, ya sea en forma de tofu, tempeh u otros derivados, es seguro incluso en mujeres que han tenido cáncer de mama. Este miedo se originó a raíz de un estudio realizado en ratones:")
     st.write("En este estudio, las isoflavonas de la soya parecían estimular el crecimiento de tumores sensibles a estrógenos. Pero los ratones no metabolizan como los humanos, y se usaron cantidades muy altas de isoflavonas. Además, se trataba de ratones a los que se les habían extirpado los ovarios, lo que hace que los efectos de los fitoestrógenos sean más potentes.")
     st.write("En humanos, las isoflavonas se unen principalmente a los receptores beta (ERβ), que ejercen un efecto protector frente a los receptores alfa (ERα), asociados al crecimiento tumoral. Estudios actuales muestran que el consumo de soya está relacionado con una reducción del riesgo de mortalidad en mujeres con antecedentes de cáncer:")
     st.write("Se analizó a 6.235 mujeres con antecedentes de cáncer de mama, y se observó una reducción del 21 % en la mortalidad. Además, se ha visto que la soya puede ser beneficiosa en la salud prostática, y también reduce los sofocos en mujeres menopáusicas. Su consumo es seguro y recomendado.")
-  elif mitos == "🔸La dieta vegetariana o vegana es muy cara":
+  elif mito == "🔸La dieta vegetariana o vegana es muy cara":
     st.subheader("🔸La dieta vegetariana o vegana es muy cara")
     st.write("La realidad es que una dieta basada en plantas puede ser incluso más económica que una dieta omnívora. Legumbres, verduras, frutas, cereales, semillas y proteínas vegetales como tofu, tempeh, soya texturizada o seitán son alimentos asequibles y muy nutritivos. Que además se pueden adquirir a granel, por lo que pueden ser aún más económicos.")
     st.write("Es cierto que productos de imitación como hamburguesas vegetales tipo Beyond Burger o marcas como Heura pueden tener un precio más elevado, pero no forman parte de la base de la alimentación vegetal, sino de un consumo más esporádico.")
