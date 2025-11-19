@@ -408,26 +408,26 @@ with tabs[5]:
       mime="application/pdf")
 
 
-  PDF_FILE_PATH = r"Recetario_Patrio.pdf" 
-  with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("**Love Veg: Recetas patrias**🌶️")
-    st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades.")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="RecetasPatrias.pdf",
-      mime="application/pdf")
-
-   PDF_FILE_PATH = r"recetario_pollo.pdf"
+   PDF_FILE_PATH = r"Recetario_Patrio.pdf" 
    with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("**Alternativas del pollo**🐤")
-    st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes?, aquí te muestran diferentes alternativas para sustituirlo.")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="Recetasparasustituirelpollo.pdf",
-      mime="application/pdf")
+     PDF_bytes = pdf_file.read()
+     st.write("**Love Veg: Recetas patrias**🌶️")
+     st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades.")
+     st.download_button(
+       label="Descargar PDF",
+       data=PDF_bytes,
+       file_name="RecetasPatrias.pdf",
+       mime="application/pdf")
+
+    PDF_FILE_PATH = r"recetario_pollo.pdf"
+    with open(PDF_FILE_PATH, "rb") as pdf_file:
+      PDF_bytes = pdf_file.read()
+      st.write("**Alternativas del pollo**🐤")
+      st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes?, aquí te muestran diferentes alternativas para sustituirlo.")
+      st.download_button(
+        label="Descargar PDF",
+        data=PDF_bytes,
+        file_name="Recetasparasustituirelpollo.pdf",
+        mime="application/pdf")
 
 
