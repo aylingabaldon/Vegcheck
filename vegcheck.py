@@ -63,27 +63,6 @@ with tabs[0]:
     st.write("**Vitamina B12:** Esta vitamina es necesaria para la formación de globulos rojos, funciones neurológicas y la síntesis del ADN. Su prncipal fuente son los alimentos de origen animal como las carnes rojas, sin embargo se puede encontrar en ciertos tipos de vegetales pero los niveles de esta vitamina varían mucho por lo que no podemosdepender de los vegetales para cubrir las necesidades diarias, por lo que se recomienda recurrir al consumo de suplementos o alimentos fortificados con esta vitamina. Hay que tomar en cuenta que no todas las vitaminas B12 etiquetadas en el mercado son aptas para veganos por lo que hay que verificar el origen de estas.")
   
   st.info("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
-#  st.subheader("¿Cómo sustituyo los productos de origen animal?")
-# st.write(AQUI ESCRIBIR UNA BREVE INTRODUCCIÓN LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
-
-  # ESTE ES UN EJEMPLO DE COMO SE DEBE DE PONER CADA PRODUCTO, SE PUEDE COPIAR Y PEGAR PARA QUE PONGAN TODAS LAS CATEGORÍAS
-#  st.write("**LECHE**")
-# st.write("Incluir una breve descripción")
-#  col1, col2 = st.columns(2)
- # with col1: # ESTOS LINKS NO SON DE LAS IMGENES, SE DEBEN DE CAMBIAR
- #   st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
- # with col2:
- #   st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
- # MODIFICAR ESTE TAMBIEN, SOLO ERA DE PRUEBA PARA VER SI SE PODÍA DUPLICAR
-#  st.write("**LECHE**")
-# st.write("Incluir una breve descripción")
-#  col1, col2 = st.columns(2)
-#  with col1:
- #   st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
- # with col2:
-#    st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
-  
-  # EN LOS CODIGOS QUE DICEN ST.WRITE PARA QUE SE PUEDAN VER SE LES QUITA EL # 
   
   st.subheader("Beneficios de la alimentación vegana (Plant-Based)")
   st.write("Alimentarse siguiendo una dieta 100% vegetal, o vegana u otra manera como tambien se le conoce **alimentación basada en plantas**, si se realiza de manera balanceada e integral (lo que quiere decir, evitar lo mayormente posible los ultraprocesados) se pueden conseguir multiples beneficios a la salud. Por poner un ejemplo, de acuerdo con un estudio se asoció a reducciones en las estimaciones de la edad biológica, basadas en los niveles de metilación del ADN, un tipo de modificación química del ADN que altera la expresión de los genes, pero no el ADN en sí. Es la principal conclusión de un estudio publicado en BMC Medicine en el que 21 pares de gemelos participaron en un ensayo clínico. De cada pareja, una persona siguió una dieta omnívora y la otra, una dieta vegana —y menos calórica— durante ese periodo.")
