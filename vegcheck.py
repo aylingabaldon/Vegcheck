@@ -278,8 +278,8 @@ with tabs[3]:
   st.image("https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/1351/5c79/3361/d60c/9c91/b9c3/75a7/02aa/15f4/c7bc/c7bc.jpg", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
   st.subheader("Lista completa de productos 🛒")
   
- # st.subheader("Links para comprar productos 100% veganos 🛒🌱")
-productos_veganos = {
+  # st.subheader("Links para comprar productos 100% veganos 🛒🌱")
+  productos_veganos = {
   "Leche vegetal (Silk) – Sitio oficial": "https://www.silk.mx/",
   "Leche Silk Almendra sin azúcar – Walmart": "https://www.walmart.com.mx/ip/bebida-vegetal-silk-sabor-almendra-sin-azucar-946-ml/00002529300292",
   "Leche Silk Avena sin azúcar – Bodega Aurrera": "https://despensa.bodegaaurrera.com.mx/ip/bebida-vegetal-silk-sabor-avena-sin-azucar-946-ml/00750644310442",
@@ -298,9 +298,9 @@ productos_veganos = {
 
   "Helados Ben & Jerry’s Non-Dairy – Tienda oficial": "https://shop.benjerry.com/collections/non-dairy",
   "Ben & Jerry’s México": "https://www.benandjerrys.com.mx/"
-}
+  }
 
-for nombre, link in productos_veganos.items():
+  for nombre, link in productos_veganos.items():
     st.write(f"• [{nombre}]({link})")
 
 with tabs[4]:
