@@ -65,7 +65,6 @@ with tabs[0]:
   
   # EN LOS CODIGOS QUE DICEN ST.WRITE PARA QUE SE PUEDAN VER SE LES QUITA EL # 
   
-  st.subheader("**Beneficios del veganismo**")
   st.subheader("Beneficios de la alimentación basada en plantas (Plant-Based)")
   st.write("Alimentarse siguiendo una dieta 100% vegetal, o vegana, o como tambien se le conoce, alimentación basada en plantas, de manera balanceada e integral (lo que quiere decir evitar lo mayormente posible los ultraprocesados) se pueden conseguir multiples beneficios a la salud por poner un ejemplo en el que se asocia a reducciones en las estimaciones de la edad biológica, basadas en los niveles de metilación del ADN, un tipo de modificación química del ADN que altera la expresión de los genes, pero no el ADN en sí. Es la principal conclusión de un estudio publicado en BMC Medicine en el que 21 pares de gemelos participaron en un ensayo clínico. De cada pareja, una persona siguió una dieta omnívora y la otra, una dieta vegana —y menos calórica— durante ese periodo.")
   st.write("He aquí unos cuantos más de los muchos beneficios:")
