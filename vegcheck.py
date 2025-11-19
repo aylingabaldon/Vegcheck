@@ -76,7 +76,7 @@ with tabs[0]:
 # st.write(f"•{beneficios}")
 # AL FINAL PARA QUE SE VEA SE LE BORRAN LOS #
   st.subheader("Mitos del veganismo")
-  st.subheader("Las dietas vegetarianas son carentes de proteínas")
+  st.subheader("🔸Las dietas vegetarianas son carentes de proteínas")
   st.write("Este es, sin duda, uno de los mitos más extendidos. Si sigues una dieta vegetariana o vegana, no te va a faltar proteína. Las proteínas están presentes tanto en alimentos de origen animal como vegetal, e incluso, en algunos casos, pueden presentar mejor biodisponibilidad las de origen vegetal.Legumbres, frutos secos, soja y sus derivados (tofu, tempeh), seitán (proteína del trigo) y cereales integrales pueden aportar proteínas de calidad. Aquí algunas equivalencias:")
   st.write("· 100 g de pollo → 23 g de proteína")
   st.write("· 100 g de soja texturizada → 50 g de proteína")
