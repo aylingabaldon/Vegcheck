@@ -263,9 +263,31 @@ with tabs[3]:
   st.write("**Cosméticos cruelty-free:** Estos no fueron probados en animales y o contienen ingredientes derivados.")
   st.image("https://media.fashionnetwork.com/cdn-cgi/image/format=auto/m/1351/5c79/3361/d60c/9c91/b9c3/75a7/02aa/15f4/c7bc/c7bc.jpg", caption="Cosméticos veganos – e.l.f / Lush / The Body Shop")
   st.subheader("Lista completa de productos 🛒")
- # AGREGAR UNA LISTA DE PRODUCTOS JUNTO CON EL TIPO, MARCAS, SUPERMERCADOS Y LINKS
-# for p in productos:
-    #  st.write(f"➤ {p}") #Falta agregar la lista
+#st.subheader("Links para comprar productos 100% veganos 🛒🌱")
+
+productos_veganos = {
+    "Leche vegetal (Silk) – Sitio oficial": "https://www.silk.mx/",
+    "Leche Silk Almendra sin azúcar – Walmart": "https://www.walmart.com.mx/ip/bebida-vegetal-silk-sabor-almendra-sin-azucar-946-ml/00002529300292",
+    "Leche Silk Avena sin azúcar – Bodega Aurrera": "https://despensa.bodegaaurrera.com.mx/ip/bebida-vegetal-silk-sabor-avena-sin-azucar-946-ml/00750644310442",
+
+    "Beyond Meat – Beyond Burger (Mr. Tofu)": "https://mrtofu.com/products/beyond-meat-beyond-burger",
+    "Beyond Meat – Beyond Burger (Green Paradise)": "https://greenparadise.com.mx/catalogo/hamburguesa-vegana-beyond-meat-227-g.html",
+    "Beyond Meat – Beyond Burger (Rappi)": "https://www.rappi.com.mx/p/beyond-meat-hamburguesa-a-base-de-p-1520093",
+
+    "Queso Violife – Manchego 200g (Abasto Vegano)": "https://mayoreo.abastovegano.com/products/queso-tipo-manchego-200g-violife",
+    "Queso Violife – Tipo crema 200g (Abasto Vegano)": "https://mayoreo.abastovegano.com/products/queso-tipo-crema-original-200g-violife",
+    "Queso Violife Mozzarella rallado (YEMA)": "https://yema.mx/p/queso-vegano-mozzarella-rallado-violife",
+
+    "Proteína vegana Vega – Chocolate (SmartFoods Market)": "https://smartfoodsmarket.com.mx/products/vega-proteina-vegana-en-polvo-18-4oz-sabor-chocolate",
+    "Proteína vegetal LanderFit": "https://www.landerfitmexico.com/productos/vegan-protein/",
+    "Proteína vegetal VegProtein – New Nutrition": "https://www.mercadolibre.com.mx/proteina-vegetal-vegana-vegprotein-vegprotein-450-g-new-nutrition-sabor-a-frutas-y-vitaminas/p/MLM23948162",
+
+    "Helados Ben & Jerry’s Non-Dairy – Tienda oficial": "https://shop.benjerry.com/collections/non-dairy",
+    "Ben & Jerry’s México": "https://www.benandjerrys.com.mx/"
+}
+
+for nombre, link in productos_veganos.items():
+    st.write(f"• [{nombre}]({link})")
 
 with tabs[4]:
   st. header("Recetas Veganas 🍽️")
