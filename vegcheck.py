@@ -63,52 +63,54 @@ with tabs[0]:
     st.write("**Vitamina B12:** Esta vitamina es necesaria para la formación de globulos rojos, funciones neurológicas y la síntesis del ADN. Su prncipal fuente son los alimentos de origen animal como las carnes rojas, sin embargo se puede encontrar en ciertos tipos de vegetales pero los niveles de esta vitamina varían mucho por lo que no podemosdepender de los vegetales para cubrir las necesidades diarias, por lo que se recomienda recurrir al consumo de suplementos o alimentos fortificados con esta vitamina. Hay que tomar en cuenta que no todas las vitaminas B12 etiquetadas en el mercado son aptas para veganos por lo que hay que verificar el origen de estas.")
   
   st.info("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
-  st.subheader("¿Cómo sustituyo los productos de origen animal?")
+#  st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR UNA BREVE INTRODUCCIÓN LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
 
   # ESTE ES UN EJEMPLO DE COMO SE DEBE DE PONER CADA PRODUCTO, SE PUEDE COPIAR Y PEGAR PARA QUE PONGAN TODAS LAS CATEGORÍAS
-  st.write("**LECHE**")
+#  st.write("**LECHE**")
 # st.write("Incluir una breve descripción")
-  col1, col2 = st.columns(2)
-  with col1: # ESTOS LINKS NO SON DE LAS IMGENES, SE DEBEN DE CAMBIAR
-    st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
-  with col2:
-    st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
+#  col1, col2 = st.columns(2)
+ # with col1: # ESTOS LINKS NO SON DE LAS IMGENES, SE DEBEN DE CAMBIAR
+ #   st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
+ # with col2:
+ #   st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
  # MODIFICAR ESTE TAMBIEN, SOLO ERA DE PRUEBA PARA VER SI SE PODÍA DUPLICAR
-  st.write("**LECHE**")
+#  st.write("**LECHE**")
 # st.write("Incluir una breve descripción")
-  col1, col2 = st.columns(2)
-  with col1:
-    st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
-  with col2:
-    st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
+#  col1, col2 = st.columns(2)
+#  with col1:
+ #   st.image("https://static.independent.co.uk/2024/04/12/13/Vegan-milks-hero.png?fit=crop&height=630&width=1200", caption="Leche vegetal")
+ # with col2:
+#    st.image("https://hebmx.vtexassets.com/arquivos/ids/703414-800-800?v=638521750175800000&width=800&height=800&aspect=true", caption="Leche vegetal")
   
   # EN LOS CODIGOS QUE DICEN ST.WRITE PARA QUE SE PUEDAN VER SE LES QUITA EL # 
   
   st.subheader("Beneficios de la alimentación vegana (Plant-Based)")
   st.write("Alimentarse siguiendo una dieta 100% vegetal, o vegana u otra manera como tambien se le conoce **alimentación basada en plantas**, si se realiza de manera balanceada e integral (lo que quiere decir, evitar lo mayormente posible los ultraprocesados) se pueden conseguir multiples beneficios a la salud. Por poner un ejemplo, de acuerdo con un estudio se asoció a reducciones en las estimaciones de la edad biológica, basadas en los niveles de metilación del ADN, un tipo de modificación química del ADN que altera la expresión de los genes, pero no el ADN en sí. Es la principal conclusión de un estudio publicado en BMC Medicine en el que 21 pares de gemelos participaron en un ensayo clínico. De cada pareja, una persona siguió una dieta omnívora y la otra, una dieta vegana —y menos calórica— durante ese periodo.")
   st.write("He aquí unos cuantos más de los muchos beneficios:")
-  st.subheader(" 🌱 Ingesta de una mayor variedad de nutrientes")
-  st.write("Las personas que siguen una alimentación vegetal suelen estar más cerca de las cantidades diarias recomendadas de ingesta de proteínas, carbohidratos y grasas que las personas que siguen una alimentación convencional. Además, la ingesta de fibra alimentaria, betacaroteno (provitamina A) y vitaminas C y E, así como biotina y magnesio, suele ser mayor en una dieta puramente vegetal. Otros nutrientes a los que las personas que siguen una alimentación basada en plantas deben prestar especial atención son la vitamina B12, el calcio, el zinc y los ácidos grasos omega-3, así como el yodo, el hierro y la vitamina D (de la cual la población general también suele carecer en cantidades suficientes). Ni una dieta convencional ni una dieta vegana/vegetariana protegen automáticamente contra las deficiencias, pero, cuando se planifica adecuadamente para incluir todos los nutrientes esenciales, una alimentación vegetal basada en alimentos principalmente naturales es beneficiosa para la salud.")
-  st.subheader(" 🌱 Menor riesgo de enfermedades cardiovasculares")
-  st.write("Son varios los estudios que demuestran que una alimentación vegetal puede tener un efecto positivo en la salud. Uno de ellos es el Oxford Vegetarian Study, basado en una muestra de unos 11.000 participantes, 6.000 de los cuales eran personas vegetarianas (incluyendo un 10% de personas veganas). El estudio demostró que los niveles de colesterol total y LDL en sangre aumentaban con el incremento del consumo de alimentos animales. Los cálculos basados en los resultados del estudio mostraron que, en comparación con las personas que consumen carne, el riesgo de desarrollar enfermedades cardiovasculares era un 24% menor en las personas vegetarianas de larga duración y hasta un 57% menor en las personas veganas de larga duración. El riesgo de morir por enfermedades cardiovasculares también crece con el aumento del consumo de carne, queso, huevos y grasas animales. Los/as participantes que no comían carne tenían una mortalidad global un 20% menor que los/as que consumían carne.")
-  st.subheader(" 🌱 El IMC es usualmente inferior en personas veganas")
-  st.write("Una evaluación del estudio EPIC-Oxford (European Prospective Investigation into Cancer and Nutrition), en el que participaron casi 38.000 personas, mostró que el IMC (índice de masa corporal) de las personas veganas es significativamente menor que el de las personas que consumen carne. Así lo confirman también los resultados del Estudio de Salud Adventista, basado en una muestra de más de 38.000 mujeres y 22.000 hombres. En este estudio, el IMC medio de las personas veganas era de 23,6 kg/m², lo que está dentro del rango de peso denominado como “normal”, mientras que el IMC medio de las personas que siguen una dieta convencional era de 28,8 kg/m², lo que sitúa a estas personas en la categoría de “sobrepeso”. El potencial preventivo y terapéutico de las dietas vegetales para las personas con sobrepeso u obesidad también ha sido confirmado por un estudio reciente realizado por el Instituto Max Planck de Ciencias Cognitivas y Cerebrales Humanas.")
-  st.subheader(" 🌱 Menor riesgo de diabetes tipo 2 en dietas 100% vegetales")
-  st.write("Otra ventaja de llevar una dieta vegana es que el consumo de fibra dietética suele ser mayor y también un menor consumo de alimentos ricos en grasas y proteínas (en comparación con la población general), principales razones por las que su IMC suele ser menor. De media, las personas que siguen una dieta convencional consumen demasiadas proteínas y ácidos grasos saturados de origen animal, especialmente en los países industrializados. Después de ajustar los datos del Estudio de Salud Adventista a factores como la edad, la educación, los ingresos, la actividad física, el consumo de alcohol y el IMC, los resultados también mostraron que quienes seguían una dieta vegetal tenían menor riesgo de desarrollar diabetes del tipo 2.")
-  st.subheader(" 🌱 Puede tener una función protectora contra el cáncer")
-  st.write("Otra gran ventaja de la dieta vegana es que puede tener un efecto protector contra el cáncer. Otra análisis del Estudio de Salud Adventista también mostró que las personas veganas tienen un 16% menos de riesgo de padecer cáncer en general y un 34% menos de riesgo de cáncer de mama o de ovarios. En su conclusión, los/as investigadores/as destacan explícitamente la función potencialmente protectora de una alimentación vegetal contra el cáncer en comparación con otras dietas.")
+  beneficio = st.selctbox(
+    "Beneficios",
+    ["Selecciona un beneficio", " 🌱 Ingesta de una mayor variedad de nutrientes", " 🌱 Menor riesgo de enfermedades cardiovasculares", " 🌱 El IMC es usualmente inferior en personas veganas", " 🌱 Menor riesgo de diabetes tipo 2 en dietas 100% vegetales", " 🌱 Puede tener una función protectora contra el cáncer"])
+  if beneficio == "Selecciona un beneficio":
+    st.write("Selecciona un beneficio para conocer más")
+  elif beneficio == " 🌱 Ingesta de una mayor variedad de nutrientes":
+    st.subheader(" 🌱 Ingesta de una mayor variedad de nutrientes")
+    st.write("Las personas que siguen una alimentación vegetal suelen estar más cerca de las cantidades diarias recomendadas de ingesta de proteínas, carbohidratos y grasas que las personas que siguen una alimentación convencional. Además, la ingesta de fibra alimentaria, betacaroteno (provitamina A) y vitaminas C y E, así como biotina y magnesio, suele ser mayor en una dieta puramente vegetal. Otros nutrientes a los que las personas que siguen una alimentación basada en plantas deben prestar especial atención son la vitamina B12, el calcio, el zinc y los ácidos grasos omega-3, así como el yodo, el hierro y la vitamina D (de la cual la población general también suele carecer en cantidades suficientes). Ni una dieta convencional ni una dieta vegana/vegetariana protegen automáticamente contra las deficiencias, pero, cuando se planifica adecuadamente para incluir todos los nutrientes esenciales, una alimentación vegetal basada en alimentos principalmente naturales es beneficiosa para la salud.")
+  elif beneficio == " 🌱 Menor riesgo de enfermedades cardiovasculares":
+    st.subheader(" 🌱 Menor riesgo de enfermedades cardiovasculares")
+    st.write("Son varios los estudios que demuestran que una alimentación vegetal puede tener un efecto positivo en la salud. Uno de ellos es el Oxford Vegetarian Study, basado en una muestra de unos 11.000 participantes, 6.000 de los cuales eran personas vegetarianas (incluyendo un 10% de personas veganas). El estudio demostró que los niveles de colesterol total y LDL en sangre aumentaban con el incremento del consumo de alimentos animales. Los cálculos basados en los resultados del estudio mostraron que, en comparación con las personas que consumen carne, el riesgo de desarrollar enfermedades cardiovasculares era un 24% menor en las personas vegetarianas de larga duración y hasta un 57% menor en las personas veganas de larga duración. El riesgo de morir por enfermedades cardiovasculares también crece con el aumento del consumo de carne, queso, huevos y grasas animales. Los/as participantes que no comían carne tenían una mortalidad global un 20% menor que los/as que consumían carne.")
+  elif beneficio == " 🌱 El IMC es usualmente inferior en personas veganas":
+    st.subheader(" 🌱 El IMC es usualmente inferior en personas veganas")
+    st.write("Una evaluación del estudio EPIC-Oxford (European Prospective Investigation into Cancer and Nutrition), en el que participaron casi 38.000 personas, mostró que el IMC (índice de masa corporal) de las personas veganas es significativamente menor que el de las personas que consumen carne. Así lo confirman también los resultados del Estudio de Salud Adventista, basado en una muestra de más de 38.000 mujeres y 22.000 hombres. En este estudio, el IMC medio de las personas veganas era de 23,6 kg/m², lo que está dentro del rango de peso denominado como “normal”, mientras que el IMC medio de las personas que siguen una dieta convencional era de 28,8 kg/m², lo que sitúa a estas personas en la categoría de “sobrepeso”. El potencial preventivo y terapéutico de las dietas vegetales para las personas con sobrepeso u obesidad también ha sido confirmado por un estudio reciente realizado por el Instituto Max Planck de Ciencias Cognitivas y Cerebrales Humanas.")
+  elif beneficio == " 🌱 Menor riesgo de diabetes tipo 2 en dietas 100% vegetales":
+    st.subheader(" 🌱 Menor riesgo de diabetes tipo 2 en dietas 100% vegetales")
+    st.write("Otra ventaja de llevar una dieta vegana es que el consumo de fibra dietética suele ser mayor y también un menor consumo de alimentos ricos en grasas y proteínas (en comparación con la población general), principales razones por las que su IMC suele ser menor. De media, las personas que siguen una dieta convencional consumen demasiadas proteínas y ácidos grasos saturados de origen animal, especialmente en los países industrializados. Después de ajustar los datos del Estudio de Salud Adventista a factores como la edad, la educación, los ingresos, la actividad física, el consumo de alcohol y el IMC, los resultados también mostraron que quienes seguían una dieta vegetal tenían menor riesgo de desarrollar diabetes del tipo 2.")
+  elif beneficio == " 🌱 Puede tener una función protectora contra el cáncer":
+    st.subheader(" 🌱 Puede tener una función protectora contra el cáncer")
+    st.write("Otra gran ventaja de la dieta vegana es que puede tener un efecto protector contra el cáncer. Otra análisis del Estudio de Salud Adventista también mostró que las personas veganas tienen un 16% menos de riesgo de padecer cáncer en general y un 34% menos de riesgo de cáncer de mama o de ovarios. En su conclusión, los/as investigadores/as destacan explícitamente la función potencialmente protectora de una alimentación vegetal contra el cáncer en comparación con otras dietas.")
   st.write("**Estos son solamente algunos de los muchos beneficios. Actualmente existe ya una gran cantidad y variedad de estudios clinícos y pandemicos acerca de esta alimentación 100% vegetal en los que se ha desmitificado las creencias populares acerca de que quien lleva esta dieta puede tener deficiencias y riesgos. A continuación veremos unos cuantos mitos**")
 
-# st.write("Escribir una breve introducción sobre lo que se hablará")
-# "ESCRIBIR LAS PRINCIPALES VENTAJAS Y BENEFICIOS DEL VEGANISMO)
-# beneficios = ["AQUI VAN A PONER TODA LA INFORMACIÓN DE LOS BENEFICIOS",
-          #   "BENEFICIO 1:      ",
-           #  "BENEFICIO 2:     ",
-            # "BENEFICIO 3:     ", ]
-# for beneficios in beneficios:
-# st.write(f"•{beneficios}")
-# AL FINAL PARA QUE SE VEA SE LE BORRAN LOS #
+
   st.subheader("**Mitos del veganismo**")
   st.subheader("🔸Las dietas vegetarianas son carentes de proteínas")
   st.write("Este es, sin duda, uno de los mitos más extendidos. Si sigues una dieta vegetariana o vegana, no te va a faltar proteína. Las proteínas están presentes tanto en alimentos de origen animal como vegetal, e incluso, en algunos casos, pueden presentar mejor biodisponibilidad las de origen vegetal.Legumbres, frutos secos, soya y sus derivados (tofu, tempeh), seitán (proteína del trigo) y cereales integrales pueden aportar proteínas de calidad. Aquí algunas equivalencias:")
