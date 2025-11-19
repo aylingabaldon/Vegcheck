@@ -395,8 +395,7 @@ with tabs[5]:
   st.write("Alimentos procesados: Como sustitutos a los productos de origen animal listos para preparar, que no son indispensables pero pueden ser muy útiles para mantener ciertos sabores sin necesidad de explotar a ningún animal.")
   st.write("También muchos tipos de galetas, panadería, snacks, bebidas, etc.")
   st.write("")
-  st.write("Nuestro organismo requiere ciertas sustancias para mantenerse las reacciones metabólicas que nos mantienen vivos, sanos y que permiten reproducirnos, a estas sustancias se les denomina nutrientes.
-  Entre los nutrientes esenciales para la vida se encuentran:")
+  st.write("Nuestro organismo requiere ciertas sustancias para mantenerse las reacciones metabólicas que nos mantienen vivos, sanos y que permiten reproducirnos, a estas sustancias se les denomina nutrientes. Entre los nutrientes esenciales para la vida se encuentran:")
   st.write("")
   st.write("**Los aminoácidos:** que son las unidades con las que se forman las proteínas y de los cuáles necesitamos 9 que son llamados aminoácidos esenciales, y con los que al mismo tiempo nuestro organismo produce otros aminoácidos.")
   st.write("**Ácidos grasos:** como el famoso omega 3 y omega 6.
