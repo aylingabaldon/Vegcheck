@@ -88,7 +88,7 @@ with tabs[0]:
   st.subheader("Beneficios de la alimentación vegana (Plant-Based)")
   st.write("Alimentarse siguiendo una dieta 100% vegetal, o vegana u otra manera como tambien se le conoce **alimentación basada en plantas**, si se realiza de manera balanceada e integral (lo que quiere decir, evitar lo mayormente posible los ultraprocesados) se pueden conseguir multiples beneficios a la salud. Por poner un ejemplo, de acuerdo con un estudio se asoció a reducciones en las estimaciones de la edad biológica, basadas en los niveles de metilación del ADN, un tipo de modificación química del ADN que altera la expresión de los genes, pero no el ADN en sí. Es la principal conclusión de un estudio publicado en BMC Medicine en el que 21 pares de gemelos participaron en un ensayo clínico. De cada pareja, una persona siguió una dieta omnívora y la otra, una dieta vegana —y menos calórica— durante ese periodo.")
   st.write("He aquí unos cuantos más de los muchos beneficios:")
-  beneficio = st.selctbox(
+  beneficio = st.selectbox(
     "Beneficios",
     ["Selecciona un beneficio", " 🌱 Ingesta de una mayor variedad de nutrientes", " 🌱 Menor riesgo de enfermedades cardiovasculares", " 🌱 El IMC es usualmente inferior en personas veganas", " 🌱 Menor riesgo de diabetes tipo 2 en dietas 100% vegetales", " 🌱 Puede tener una función protectora contra el cáncer"])
   if beneficio == "Selecciona un beneficio":
