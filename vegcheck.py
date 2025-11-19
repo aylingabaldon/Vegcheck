@@ -85,6 +85,11 @@ with tabs[0]:
   st.write("· 100 g de seitán → 24 g de proteína")
   st.write("· 100 g de atún en conserva al natural → 24-26 g de proteína")
   st.write("Otro error común es pensar que, si un alimento como las lentejas no contiene un aminoácido esencial como la metionina, entonces no se puede considerar una fuente válida de proteína. Lo cierto es que, combinándolas con alimentos ricos en lisina (como arroz o pan), obtenemos proteínas completas. Además, no es necesario hacerlo en la misma comida, basta con consumir variedad a lo largo del día.")
+  st.subheader("🔸La soya produce cáncer de mama")
+  st.write("Otro mito sin respaldo científico. La soja no solo no produce cáncer de mama, sino que puede ejercer un efecto protector. Su consumo, ya sea en forma de tofu, tempeh u otros derivados, es seguro incluso en mujeres que han tenido cáncer de mama. Este miedo se originó a raíz de un estudio realizado en ratones:")
+  st.write("En este estudio, las isoflavonas de la soja parecían estimular el crecimiento de tumores sensibles a estrógenos. Pero los ratones no metabolizan como los humanos, y se usaron cantidades muy altas de isoflavonas. Además, se trataba de ratones a los que se les habían extirpado los ovarios, lo que hace que los efectos de los fitoestrógenos sean más potentes.")
+  st.write("En humanos, las isoflavonas se unen principalmente a los receptores beta (ERβ), que ejercen un efecto protector frente a los receptores alfa (ERα), asociados al crecimiento tumoral. Estudios actuales muestran que el consumo de soja está relacionado con una reducción del riesgo de mortalidad en mujeres con antecedentes de cáncer:")
+  st.write("Se analizó a 6.235 mujeres con antecedentes de cáncer de mama, y se observó una reducción del 21 % en la mortalidad. Además, se ha visto que la soja puede ser beneficiosa en la salud prostática, y también reduce los sofocos en mujeres menopáusicas. Su consumo es seguro y recomendado.")
 # st.write("Escribir una breve introducción sobre lo que se hablará")
 # mitos = ["AQUÍ VAN LOS MITOS MÁS SONADOS ENLISTADOS Y LA RAZON POR LA QUE NO ES VERDAD",
   #    "MITO 1:   ",
