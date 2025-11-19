@@ -384,7 +384,7 @@ with tabs[4]:
       mime="application/pdf")
 
 with tabs[5]:
-  st. header("Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩")
+  st.header("Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩")
   st.write("En esta pestaña encontraras los principales ''SUSTITUTOS'' de los alimentos de origen animal para desmentir creencias como que si dejas de tomar leche te faltará calcio en tu dieta y por consecuente sufrir de osteoporosis.")
   st.write("Hay muchas opciones entre los alimentos de origen vegetal que se puede encontrar disponibles en casi cualquier supermercado. Alimentos que hemos consumido durante toda la vida, que son asequibles, económicos y que no hace falta sino incorporarlos en mayor medida en la alimentación o alternarlos para tener una mayor diversidad de los nutrientes que necesitamos día a día, alimentos que todos conocemos, como:")
   st.write("")
