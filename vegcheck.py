@@ -113,7 +113,7 @@ with tabs[0]:
 
   st.subheader("**Mitos del veganismo**")
   st.write("Existen diversos mitos de la alimentació basada en plantas o veganas que pueden generar duda al momento d elegir este estilo de vida, sin embargo muchos de ellos no son del todo ciertos, a continuación te presentamos los mitos más sonados o comunes y una breve explicación de estos")
-  mit == st.selectbox(
+  mit = st.selectbox(
     "Mitos", 
     ["Selecciona un mito", "🔸Las dietas vegetarianas son carentes de proteínas", "🔸La soya produce cáncer de mama", "🔸La dieta vegetariana o vegana es muy cara"])
   if mit == "Selecciona un mito":
