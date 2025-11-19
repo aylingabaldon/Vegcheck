@@ -376,7 +376,7 @@ with tabs[5]:
   st.subheader("**desayunos**")
   st.write("podra encontrar en estos recetarios algunas ideas para comenzar su dia")
 
-   PDF_FILE_PATH = r"EnCasa_-ConLoveVeg_-Recetario.pdf"
+  PDF_FILE_PATH = r"EnCasa_-ConLoveVeg_-Recetario.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Más recetas**🌯")
