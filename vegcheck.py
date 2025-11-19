@@ -412,8 +412,8 @@ with open(PDF_FILE_PATH, "rb") as pdf_file:
       mime="application/pdf")
 
 
-PDF_FILE_PATH = r"Recetario_Patrio.pdf" 
-with open(PDF_FILE_PATH, "rb") as pdf_file:
+ PDF_FILE_PATH = r"Recetario_Patrio.pdf" 
+ with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
     st.write("**Love Veg: Recetas patrias**🌶️")
     st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades.")
