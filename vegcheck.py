@@ -14,6 +14,25 @@ st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
 st.sidebar.image("https://uach.mx/assets/media/publications/2022/11/4120_simbolos-universitarios/Escudo.png", width=120)
 tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️", "Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩"])
+st.markdown("""
+<style>
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+}
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #F0F2F6;
+    border-radius: 4px 4px 0px 0px;
+    gap: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.stTabs [aria-selected="true"] {
+    background-color: #FFFFFF;
+}
+</style>
+""", unsafe_allow_html=True)
 
 with tabs[0]:
   st.header("Iniciación al veganismo👩🏻‍💻👨🏾‍💻")
