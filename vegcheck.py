@@ -6,7 +6,7 @@ st.write("Entonces esta app es ideal para ti, aquí encontrarás información im
 st.sidebar.image("https://uach.mx/assets/media/publications/2017/11/169_imagen-uach/escudo-color.png")
 st.sidebar.write("**VEGCHECK:** Una app para tu nuevo estilo de vida")
 st.sidebar.write("**Equipo:** ")
-Nombres = ["Paola Conde", "Aylín Gabaldón", "José Luis Guevara", "Alan López", "Luis Yepiz"]
+Nombres = ["Paola Conde", "Aylín Gabaldón", "José Luis Guevara Rentería", "Alan López", "Luis Yepiz"]
 for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("**Materia:** Programación")
