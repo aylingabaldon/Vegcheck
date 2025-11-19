@@ -12,7 +12,7 @@ for Nombres in Nombres:
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
 st.sidebar.image("https://uach.mx/assets/media/publications/2022/11/4120_simbolos-universitarios/Escudo.png")
-tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️"])
+tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️", "Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩"])
 
 with tabs[0]:
   st.header("Iniciación al veganismo👩🏻‍💻👨🏾‍💻")
@@ -384,7 +384,7 @@ with tabs[4]:
       mime="application/pdf")
 
 with tabs[5]:
-  st.header("Nutrientes, ¿dónde encontrarlos?")
+  st.header("Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩")
   st.write("En esta pestaña encontraras los principales ''SUSTITUTOS'' de los alimentos de origen animal para desmentir creencias como que si dejas de tomar leche te faltará calcio en tu dieta y por consecuente sufrir de osteoporosis.")
   st.write("Hay muchas opciones entre los alimentos de origen vegetal que se puede encontrar disponibles en casi cualquier supermercado. Alimentos que hemos consumido durante toda la vida, que son asequibles, económicos y que no hace falta sino incorporarlos en mayor medida en la alimentación o alternarlos para tener una mayor diversidad de los nutrientes que necesitamos día a día, alimentos que todos conocemos, como:")
   st.write("")
