@@ -29,7 +29,7 @@ st.markdown("""
     padding-bottom: 10px;
 }
 .stTabs [aria-selected="true"] {
-    background-color: #808000;
+    background-color: #004f07;
 }
 </style>
 """, unsafe_allow_html=True)
