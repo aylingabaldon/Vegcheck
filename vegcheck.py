@@ -385,48 +385,48 @@ with tabs[5]:
       file_name="RecetarioLoveveg.pdf",
       mime="application/pdf")
 
-   PDF_FILE_PATH = r"recetario_huevo.pdf"
+  PDF_FILE_PATH = r"recetario_huevo.pdf"
+  with open(PDF_FILE_PATH, "rb") as pdf_file:
+    PDF_bytes = pdf_file.read()
+    st.write("**Alternativas del huevo**🥚")
+    st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana.")
+    st.download_button(
+      label="Descargar PDF",
+      data=PDF_bytes,
+      file_name="Recetasparasustituirelhuevo.pdf",
+      mime="application/pdf")
+     
+   PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
    with open(PDF_FILE_PATH, "rb") as pdf_file:
      PDF_bytes = pdf_file.read()
-     st.write("**Alternativas del huevo**🥚")
-     st.write("Aquí te mostrarán diferentes recetas que utilizan huevo y de que manera se puede sustituir este producto para hacer una receta 100% vegana.")
+     st.write("**Vegaffinity** 🥘")
+     st.write("En este recetario encontrarás gran variedad de recetas conocidas o comunes pero con su alternativa vegana.")
      st.download_button(
        label="Descargar PDF",
        data=PDF_bytes,
-       file_name="Recetasparasustituirelhuevo.pdf",
+       file_name="Vegaffinity.pdf",
        mime="application/pdf")
-     
-    PDF_FILE_PATH = r"30Recetas_-comprimido.pdf"
-    with open(PDF_FILE_PATH, "rb") as pdf_file:
-      PDF_bytes = pdf_file.read()
-      st.write("**Vegaffinity** 🥘")
-      st.write("En este recetario encontrarás gran variedad de recetas conocidas o comunes pero con su alternativa vegana.")
-      st.download_button(
-        label="Descargar PDF",
-        data=PDF_bytes,
-        file_name="Vegaffinity.pdf",
-        mime="application/pdf")
 
-    PDF_FILE_PATH = r"Recetario_Patrio.pdf" 
-    with open(PDF_FILE_PATH, "rb") as pdf_file:
-      PDF_bytes = pdf_file.read()
-      st.write("**Love Veg: Recetas patrias**🌶️")
-      st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades.")
-      st.download_button(
-        label="Descargar PDF",
-        data=PDF_bytes,
-        file_name="RecetasPatrias.pdf",
-        mime="application/pdf")
+   PDF_FILE_PATH = r"Recetario_Patrio.pdf" 
+   with open(PDF_FILE_PATH, "rb") as pdf_file:
+     PDF_bytes = pdf_file.read()
+     st.write("**Love Veg: Recetas patrias**🌶️")
+     st.write("En fechas patrias personaliza tu menú con recetas veganas con los sabores de estas festividades.")
+     st.download_button(
+       label="Descargar PDF",
+       data=PDF_bytes,
+       file_name="RecetasPatrias.pdf",
+       mime="application/pdf")
 
-    PDF_FILE_PATH = r"recetario_pollo.pdf"
-    with open(PDF_FILE_PATH, "rb") as pdf_file:
-      PDF_bytes = pdf_file.read()
-      st.write("**Alternativas del pollo**🐤")
-      st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes?, aquí te muestran diferentes alternativas para sustituirlo.")
-      st.download_button(
-        label="Descargar PDF",
-        data=PDF_bytes,
-        file_name="Recetasparasustituirelpollo.pdf",
-        mime="application/pdf")
+   PDF_FILE_PATH = r"recetario_pollo.pdf"
+   with open(PDF_FILE_PATH, "rb") as pdf_file:
+     PDF_bytes = pdf_file.read()
+     st.write("**Alternativas del pollo**🐤")
+     st.write("¿Quieres hacer una receta pero lleva pollo en los ingredientes?, aquí te muestran diferentes alternativas para sustituirlo.")
+     st.download_button(
+       label="Descargar PDF",
+       data=PDF_bytes,
+       file_name="Recetasparasustituirelpollo.pdf",
+       mime="application/pdf")
 
 
