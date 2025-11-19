@@ -373,9 +373,7 @@ with tabs[5]:
 # CLASIFICAR LOS LINKS Y AGREGAR LOS PDFs DE LAS RECETAS
   st.subheader("Recetarios descargables")
   st.write("A continuación hay una serie de documentos que puedes descargar con más deliciosas recetas para preparar.")
-  st.subheader("**desayunos**")
-  st.write("podra encontrar en estos recetarios algunas ideas para comenzar su dia")
-
+ 
   PDF_FILE_PATH = r"EnCasa_-ConLoveVeg_-Recetario.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
     PDF_bytes = pdf_file.read()
