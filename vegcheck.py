@@ -42,7 +42,7 @@ with tabs[0]:
   elif grupos == "Vitamina B12":
     st.write("**Vitamina B12:** Esta vitamina es necesaria para la formación de globulos rojos, funciones neurológicas y la síntesis del ADN. Su prncipal fuente son los alimentos de origen animal como las carnes rojas, sin embargo se puede encontrar en ciertos tipos de vegetales pero los niveles de esta vitamina varían mucho por lo que no podemosdepender de los vegetales para cubrir las necesidades diarias, por lo que se recomienda recurrir al consumo de suplementos o alimentos fortificados con esta vitamina. Hay que tomar en cuenta que no todas las vitaminas B12 etiquetadas en el mercado son aptas para veganos por lo que hay que verificar el origen de estas.")
   
-  st.write("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
+  st.info("**IMPORTANTE:** Dado que las necesidades nutricionales y energéticas individuales varían según la edad, el nivel de actividad y el estado de salud, esta guía debe considerarse únicamente como una introducción general a una dieta vegana equilibrada. Para obtener recomendaciones personalizadas, consulte con un dietista o nutriólogo especializado en nutrición vegana.")
   st.subheader("¿Cómo sustituyo los productos de origen animal?")
 # st.write(AQUI ESCRIBIR UNA BREVE INTRODUCCIÓN LAS ALTERNATIVAS QUE SE TIENE DE LOS ALIMENTOS BÁSICOS DE ORIGEN ANIMAL A LOS DE ORIGEN VEGETAL)
 
