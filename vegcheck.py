@@ -385,7 +385,7 @@ with tabs[5]:
       file_name="RecetarioLoveveg.pdf",
       mime="application/pdf")
 
-   PDF_FILE_PATH = r"recetario_huevo.pdf"
+   PDF_FILE_PATH = "recetario_huevo.pdf"
    with open(PDF_FILE_PATH, "rb") as pdf_file:
      PDF_bytes = pdf_file.read()
      st.write("**Alternativas del huevo**🥚")
