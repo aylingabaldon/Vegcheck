@@ -11,8 +11,8 @@ for Nombres in Nombres:
   st.sidebar.write(f"• {Nombres}")
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
-st.sidebar.image("https://uach.mx/assets/media/publications/2022/11/4120_simbolos-universitarios/Escudo.png", width=80)
-st.sidebar.image("https://uach.mx/assets/media/publications/2017/11/169_imagen-uach/escudo-color.png", width=80)
+st.sidebar.image("https://uach.mx/assets/media/publications/2022/11/4120_simbolos-universitarios/Escudo.png", width=120)
+st.sidebar.image("https://uach.mx/assets/media/publications/2017/11/169_imagen-uach/escudo-color.png", width=120)
 tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️", "Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩"])
 
 with tabs[0]:
