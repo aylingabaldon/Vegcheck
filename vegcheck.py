@@ -411,16 +411,6 @@ with open(PDF_FILE_PATH, "rb") as pdf_file:
       file_name="Vegaffinity.pdf",
       mime="application/pdf")
 
-  PDF_FILE_PATH = r"MisPrimerosTacosVeganos_LoveVegMéxico_2021.pdf"
-  with open(PDF_FILE_PATH, "rb") as pdf_file:
-    PDF_bytes = pdf_file.read()
-    st.write("**Love Veg: Tacos Veganos**🌮")
-    st.write("Como buen Mexicano los tacos no pueden faltar en la alimentación, este recetario está dedicado a como preparar diferentes tipos de tacos sin productos de origen animal.")
-    st.download_button(
-      label="Descargar PDF",
-      data=PDF_bytes,
-      file_name="TacosVeganos.pdf",
-      mime="application/pdf")
 
   PDF_FILE_PATH = r"Recetario_Patrio.pdf"
   with open(PDF_FILE_PATH, "rb") as pdf_file:
