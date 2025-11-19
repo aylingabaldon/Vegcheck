@@ -13,7 +13,7 @@ for Nombres in Nombres:
 st.sidebar.write("**Materia:** Programación")
 st.sidebar.write("**Grupo:** 3L")
 st.sidebar.image("https://uach.mx/assets/media/publications/2022/11/4120_simbolos-universitarios/Escudo.png", width=200)
-tabs = st.tabs(["Iniciación al veganismo👩🏻‍💻👨🏾‍💻", "Ingredientes no aptos ❌", "Ingredientes a revisar 🔎", "Productos 100% veganos ✅", "Recetas Veganas 🍽️", "Nutrientes, ¿dónde encontrarlos? 🫘🥜 🟰 🥩"])
+tabs = st.tabs(["**Iniciación al veganismo**👩🏻‍💻👨🏾‍💻", "**Ingredientes no aptos** ❌", "**Ingredientes a revisar** 🔎", "**Productos 100% veganos** ✅", "**Recetas Veganas** 🍽️", "**Nutrientes, ¿dónde encontrarlos?** 🫘🥜 🟰 🥩"])
 st.markdown("""
 <style>
 .stTabs [data-baseweb="tab-list"] {
